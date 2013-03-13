@@ -1,0 +1,124 @@
+/**
+* \ingroup <FILEGROUP>
+*
+* \file msp430x5xx_FramErase.s43
+*
+* \brief FRAM erase funclet
+*
+*/
+/*
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/ 
+ * 
+ * 
+ *  Redistribution and use in source and binary forms, with or without 
+ *  modification, are permitted provided that the following conditions 
+ *  are met:
+ *
+ *    Redistributions of source code must retain the above copyright 
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ *    Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the 
+ *    documentation and/or other materials provided with the   
+ *    distribution.
+ *
+ *    Neither the name of Texas Instruments Incorporated nor the names of
+ *    its contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+ *  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+ *  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ *  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+ *  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+ *  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+ *  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ *  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ *  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+ *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+ *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+#include "msp430x54x.h"
+;-------------------------------------------------------------------------------
+            NAME    FlashErase
+;-------------------------------------------------------------------------------
+; Exported Symbols
+PUBLIC      MyEraseAddr
+PUBLIC      MyEraseType
+PUBLIC      MyEraseLock
+PUBLIC      PageErase
+;-------------------------------------------------------------------------------
+            RSEG    MYVARS
+            //RSEG    DATA16_N
+;-------------------------------------------------------------------------------
+MyProgStart
+MyStart     DW      PageErase - MyProgStart
+MyEnd       DW      TheEnd - MyProgStart
+MyR10       DL      0x000BDEAD
+MyR11       DL      0x000BDEAD
+
+; must be set from calling marco
+#define MyEraseAddr R5
+; must be set from calling marco
+#define MyEraseLen  R6
+; load by funclet
+#define MyEraseLock R8
+; load by funclet
+#define MyEraseType R9
+
+
+;-------------------------------------------------------------------------------
+            RSEG    MYCODE
+            //RSEG    DATA16_N        
+;-------------------------------------------------------------------------------
+;--- [1] Erase Routine Start ---------------------------------------------------
+PageErase
+StopWDT     mov.w   #WDTPW+WDTHOLD,&WDTCTL   ; Make sure watchdog timer is stopped
+
+;--- [2] Save Context Section --------------------------------------------------
+SaveR10    ; save R10 & R11 & R12
+            MOVX.A  R10,MyR10
+            MOVX.A  R11,MyR11
+;--- [3] Wait for Erase comand in -------------------------------------------------
+
+confMail    MOV     #JMBCLR0OFF+JMBCLR1OFF+JMBMODE,&SYSJMBC  ; disable auto-clear feature, 16bit mode
+            
+NotifyDriverStart
+            MOV     #0xABAD,&SYSJMBO1
+            MOV     #0xBABE,&SYSJMBO0
+            
+Wcmd        BIT     #JMBIN1FG,&SYSJMBC    ; Data available in mailbox?
+            JZ      Wcmd                  ; No, wait for data         
+            CMP.W   #0xBEEF ,&SYSJMBI0   ; Is first word ofcomand correct?
+            JNE     Wcmd                  ; if incorrect jmp to wait for comand
+            CMP.W   #0xDEAD, &SYSJMBI1     ; Is second word if comand correct?
+            JNE     Wcmd                  ; if incorrect jmp to wait for comand
+                                          ; else erase flash 0xDEAD
+;--- [4] Actual Erase Sequence -------------------------------------------------
+PreapareErase
+            MOVX.A  MyEraseAddr,R10       ; The Address for the dummy write
+            MOVX.A  MyEraseLen ,R11       ; The Address for the dummy write   
+DoErase
+            MOV.W   #0xFFFF,0(R10)        ; Dummy erase Adress            
+            INCDX.A R10                   ; count up adress
+            DECDX.A R11                   ; decrement length
+
+            CMP.W   #0x0,R11              ; Is lengh equals zero
+            JNE     DoErase               ; No, continue
+            
+;--- [5] Restore Context Section -----------------------------------------------
+RestoreR10  MOVX.A  MyR10,R10
+RestoreR11  MOVX.A  MyR11,R11
+            
+;--- [6] Erase Routine End -----------------------------------------------------
+NotifyDriverStop
+            MOV     #0xCAFE,&SYSJMBO1
+            MOV     #0xBABE,&SYSJMBO0
+TheEnd
+#ifdef SUBROUTINE
+            RETA
+#else
+            JMP     TheEnd
+#endif
+            END

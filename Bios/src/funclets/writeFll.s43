@@ -1,0 +1,144 @@
+/*
+ * writeFll.s43
+ * 
+ * Funclet which gets uploaded onto the target and writes to the 
+ * specified FLASH area
+ *
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/ 
+ * 
+ * 
+ *  Redistribution and use in source and binary forms, with or without 
+ *  modification, are permitted provided that the following conditions 
+ *  are met:
+ *
+ *    Redistributions of source code must retain the above copyright 
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ *    Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the 
+ *    documentation and/or other materials provided with the   
+ *    distribution.
+ *
+ *    Neither the name of Texas Instruments Incorporated nor the names of
+ *    its contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+ *  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+ *  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ *  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+ *  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+ *  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+ *  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ *  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ *  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+ *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+ *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+;*******************************************************************************
+;   MSP430 Write Flash Memory
+;
+;   Description: Funclet which gets uploaded onto the target and writes to the 
+;                specified FLASH area
+;
+;   G. Hoene
+;   Texas Instruments, Inc
+;   July 2011
+;
+; Funclet parameters:
+;
+;   Parameter       Register
+;   =========       ========
+;   Address         R5
+;   Size            R6
+;   LockA           R8
+;   Type            R9
+;
+;   General Purpose Registers used by funclet
+;   =========================================
+;   R10             Memory pointer
+;   R11             Compare register/Outer loop counter
+;   R12             Inner delay loop counter
+;
+;   Funclet memory map
+;   ==================
+;   The Funclet uses a very specific memory map, so that the debugger can check
+;   for specific values on the MAB to track the progress of the funclet. The
+;   following table documents this memory map:
+;
+;   Section:        Location:       Number of Words:
+;   --------        ---------       ----------------
+;   Initialization  0000h - 001Eh   16 words
+;   WaitforDeadLoop 0020h - 0026h    4 words
+;   CodeBody        0028h - 005Ah   26 words
+;   Stop            005Ch            1 word
+;   ControlWord     005Eh            1 word
+;                                   ================
+;   Total:                          48 words (96 bytes)
+;
+;   UserData        0060h - xxxxh   16 words in worst case device
+;
+;-------------------------------------------------------------------------------
+#include "msp430.h"                     ; #define controlled include file
+
+;-------------------------------------------------------------------------------
+; Initialization
+            ORG     0xF800
+
+Initialization
+            mov     PC,R10                  ; Store relative offset of program
+            
+            mov     #WDTPW+WDTHOLD,&WDTCTL  ; Stop watchdog timer
+            
+            add     #05Ch,R10               ; Make R10 point to the control word (offset + 0x5E - 2)
+            mov     #0BEEFh,0(R10)          ; Initialize control word
+            
+            jmp     WaitForDead              ; Jump to WaitForDeadLoop - must be located at specific location
+
+;-------------------------------------------------------------------------------
+; Wait for debugger to acknowledge
+            ORG     0xF820
+;----> debugger must poll for addresses starting here
+WaitForDead mov     #0DEADh,R11             ; Wait for debugger to write 0xDEAD into memory
+            xor     0(R10),R11
+            jnz     WaitForDead
+;----> debugger must poll for addresses ending here
+
+;-------------------------------------------------------------------------------
+; Code Body
+DoWrite
+            mov     R10,R11
+            add     #2h,R11               ; Save the source pointer
+            mov     R5,R12                ; Save the destination pointer            
+
+Prog            
+            cmp     @R11,0(R12)      ;Value already present?
+            jeq     Next             ;Yes, so skip and advance to next.
+            mov     #(0a500h | WRT),&FCTL1 ;No, so enable writing to flash.
+            mov     @R11,0(R12)      ;Write data to flash.
+Wait        
+            bit     #BUSY,&FCTL3    ;Wait for completion of write.    
+            jnz     Wait            ;Busy bit is cleared upon completion.
+            mov     #0a500h,&FCTL1  ;Reset writing to flash.
+            mov     #0a500h,&FCTL3  ;Clear BUSY + LOCK bits.
+Next        
+            incd    R11             ;Advance source pointer.
+            incd    R12             ;Advance destination pointer.
+            dec     R6              ;Decrement word counter.
+            jnz     Prog            ;Program Length words.
+
+            jmp     Stop            ; Jump to the end of the program (must be located at offset EEh)
+;-------------------------------------------------------------------------------
+; End
+            ORG     0xF85C
+Stop
+            jmp     $               ; End program
+            nop
+;-------------------------------------------------------------------------------
+;           Interrupt Vectors
+;-------------------------------------------------------------------------------
+            ORG     0x0FFFE                  ; MSP430 RESET Vector (Only used for debugging)
+            DW      Initialization          ;
+            
+END

@@ -1,0 +1,239 @@
+Rev 3.2.5.004
+========================================================================
+   14/9/2012 Alexander Festini/Robert Lessmeier
+
+   New device support:
+     MSP430F535x, MSP430F565x, MSP430F635x, MSP430F665x
+
+   Changes:
+   - Removed deprecated functions
+      MSP430_Identify
+      MSP430_Breakpoint
+      MSP430_EEM_Open
+      MSP430_EEM_Read_Register
+      MSP430_EEM_Read_Register_Test
+      MSP430_EEM_Write_Register
+      MSP430_EEM_Close
+
+   Bug Fixes:
+   - Improved update stability and behavior in case of a failed update
+   - Fixed occasional errors after firmware update without power cycle
+   - Fixed wrong RAM sizes for MSP430FR57xx devices
+   - Fixed bug where 0x00 was written behind a FRAM write
+   - Fixed issue where EDI parity could be invalidated on writing
+========================================================================
+
+
+Rev 3.2.4.005 (Bugfix release)
+========================================================================
+   28/6/2012 Robert Lessmeier/Günther Höne
+
+   New device support:
+   - No new devices added.
+   Bug Fixes:
+   - Able to read Memory location 0x1B00 without generating a BOR
+   - Improved communication reliability: error exceptions are properly
+     caught inside the DLL
+   - Fixed Fuse-blow for 5xx/6xx and FRAM devices    
+   - Fixed regression in LPMx.5 handling
+
+ For further details refer to version 3.2.4.002
+========================================================================
+
+
+Rev 3.2.4.002
+========================================================================
+   06/6/2012 Florian Berenbrinker
+
+   New device support:
+   MSP430SL5438A, MSP430F6779(1),
+    CC430F5123, CC430F5125, CC430F5143, CC430F5145, CC430F5147
+    CC430F6143, CC430F6145, CC430F6147
+    MSP430FR5969, MSP430FR5949 (Wolverine)
+
+   Bug Fixes:
+   - Correct DLL database entry for min. flash voltage on 471x devices
+   - Fixed single stepping issues on L092
+   - Fixed DCO calibration Bug, that the original DCO setting was not
+     restored after debug break(device running slower after read)
+   - Fixed DLL database entry for the EEM level of the MSP430F5228
+   - Fixed disassembly window issues on MSP430FR59xx devices
+   - Fixed issues with Fast port close/open
+
+   New Features:
+   - MPU and IP protection are handled by the DLL on all MSP430FRxx
+     devices -> Access violations will be suppressed by the debugger
+   - Implement WriteMemoryQuick() function to write directly into the
+     FRAM memory using JTAG
+   - Remove write and erase funclets for MSP430FR59xx devices
+       - Erase is now handled using the JTAG mailbox
+       - Write is done using the WriteMemoryQuick() function
+   - Implemented erase mechanism to erase IP protected memory areas
+     without accessing it
+   - Enhanced USB-FET VCC startup behavior to be identical compared
+     to the V2 DLL
+       - VCC will be activated when the USB connector of the USB-FET
+         is plugged in
+   - Enhanced EEM support
+       - Enhanced state storage implementation to be fully functional
+       - Implemented cycle counter for counting cycles during a single
+         run
+
+   Known Limitations:
+   -   On devices with FLL, clock control does not allow to keep
+       clocks running, while the device is halted and the clock is
+       sourced by the FLL
+       Workaround: None
+   -   EEM not fully supported (Sequencer/variable watch)
+       Workaround: None
+   -   V1.3 of UIF does not work in SBW2 mode with MSP430F6638
+       Workaround: None
+========================================================================
+
+
+Rev 3.2.3.015
+========================================================================
+   03/16/2012 Florian Berenbrinker
+
+   New device support:
+   None
+
+   Bug Fixes:
+   -   Writing to BSL is now working when an erase or erase check,
+       followed by a reset, was performed before
+   -   Writing to memory with enabled MPU on FRAM devices not
+       possible anymore
+   -   Fixed a bug causing flash erase and write errors on MSP430F413
+   -   Size of DEVICE_T struct has been increased to match embedded
+       v2 DLL
+   -   Port handling has been changed to prevent a port can't be
+       reopened after closing
+   -   Added fix to prevent possible RAM corruption when reading CPU
+       registers on 5xx/6xx devices
+
+   New Features:
+   -   Added calibration of clock frequency to ensure exact flash
+       timings, before Flash erasing or writing
+   -   The UIF now starts up supplying 3V to target
+
+   Known Limitations:
+   -   On devices with FLL, clock control does not allow to keep
+       clocks running, while the device is halted and the clock is
+       sourced by the FLL
+       Workaround: None
+   -   Cycle Counter not functional.
+       Workaround: None
+   -   EEM not fully supported (Trace/Sequencer/variable watch
+       Workaround: None
+   -   V1.3 of UIF did not work in SBW2 mode with MSP430F6638
+       Workaround: None
+========================================================================
+
+
+Rev 3.2.3.002
+========================================================================
+   12/23/2011 Florian Berenbrinker
+
+   New device support:
+   None
+
+   Bug Fixes:
+   -   All 2xx Special Function Registers are not longer read as 0x3FFF
+   -   Step over certain instructions is now working
+   -   Flash programming at VCC < 2.7V for F1xx/F4xx is now working
+   -   FLL Debug Error, RST after GO is fixed
+   -   C092: Connection to ROM device generates no errors anymore
+   -   Write File API call no longer fails with ERROR_OPERATION_ABORTED
+   -   Fixed FE427A / T103 Problems with FLL clock frequency while
+       debugging
+   -   Debugger operation sets VMAIFG on MSP430F5438A
+   -   DLL now returns when USB FET is disconnected during FW update
+
+   Known Limitations:
+   -   If you unplug the USB FET during an active debug session,
+       the session could be interrupted and the IDE could stop working.
+   -   Cycle Counter not functional.
+       Workaround: None
+   -   EEM not fully supported (Trace/Sequencer/variable watch
+       Workaround: None
+   -   UIF supply not according to DLLv2
+       Workaround: None
+   -   V1.3 of UIF does not work in SBW2 mode with MSP430F6638
+       Workaround: None
+========================================================================
+
+
+Rev 3.2.2.000
+========================================================================
+   11/25/2011 Florian Berenbrinker
+
+   New device support:
+   None
+
+   Bug Fixes:
+   -   LPMx.5 debug is now functional after wakeup from LPMx.5
+   -   MSP430-Run is working in combination with LPMx.5
+   -   EEM Register Breakpoint now fully functional on CPUX derivatives
+   -   Fixed stepping issue in upper memory of MSP430FG4619
+   -   Clock Control now fully functional on AFE devices
+
+   Known Limitations:
+   -   If you unplug the USB FET during an active debug session,
+       the session could be interrupted and the IDE could stop working
+   -   Cycle Counter not functional
+       Workaround: None
+   -   EEM not fully supported (Trace/Sequencer/variable watch)
+       Workaround: None
+   -   Old UIF version (v1.3) firmware update not fully automated due
+       due to Hardware limitation
+       Workaround: An manual reset has to be done during major UIF
+       update
+========================================================================
+
+
+Rev 3.2.1.009
+========================================================================
+   10/18/2011 Florian Berenbrinker
+
+   !NOTE this an all new DLL design!
+   The DLL version 3.2.1.9 is an all new DLL design compared to
+   the last DLL version 2.9.4.1. This new DLL includes also a new
+   UIF-Firmware. Furthermore the USB driver has been changed to a
+   certified CDC driver.
+   The DLL is implemented in C++ and follows a object base
+   design, which is host operating system independent .
+   The API of the new DLL is the same as for the old one.
+   DLL functionality keeps the same as in the old V2 DLL.
+   The new DLL V3 also includes a compiled version of the DLL v2.
+   For more details please see www.ti.com/mspds
+
+   The new CDC drivers and other imported information about the new UIF
+   firmware update could be found in MSP430_DLL_Devopers guide, which
+   is part of this packet.
+
+   New device support:
+   CC430F6147 - 8 devices
+   -F6147, F6145, F6143, F5147, F5145, F5143, F5125, F5123
+
+   Known Limitations:
+   -   LPMx.5 debugging is not fully functional.
+   -   After wakeup from LPMx.5, MSP430_Run is not functional
+       Workaround: None
+   -   If you unplug the USB FET during an active debug session,
+       the session could be interrupted and the IDE could stop working
+   -   Cycle Counter not functional
+       Workaround: None
+   -   EEM not fully supported (Trace/Sequencer/variable watch)
+       Workaround: None
+   -   EEM Register Breakpoint not fully functional on CPUX derivatives
+       Workaround: None
+   -   Stepping upper memory of an MSP430FG4619 is not fully functional
+       in certain cases
+       Workaround: None
+   -   Old UIF version (v1.3) firmware update not fully automated due
+       to Hardware limitation
+       Workaround: An manual reset has to be done during major UIF
+       update.
+   -   Clock Control not fully functional for AFE devices
+       Workaround: None
+========================================================================

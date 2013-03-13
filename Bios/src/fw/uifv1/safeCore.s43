@@ -1,0 +1,266 @@
+/**
+* \ingroup MODULBIOS
+*
+* \file safeCore.s43
+*
+* \brief <FILEBRIEF>
+*
+*/
+/*
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/ 
+ * 
+ * 
+ *  Redistribution and use in source and binary forms, with or without 
+ *  modification, are permitted provided that the following conditions 
+ *  are met:
+ *
+ *    Redistributions of source code must retain the above copyright 
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ *    Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the 
+ *    documentation and/or other materials provided with the   
+ *    distribution.
+ *
+ *    Neither the name of Texas Instruments Incorporated nor the names of
+ *    its contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+ *  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+ *  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ *  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+ *  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+ *  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+ *  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ *  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ *  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+ *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+ *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/*!
+  \page safecore_page1 Safecore
+  
+  \author Detlef Fink (08/12/2010)
+
+The failsafe core need only one segment in the MSP430 and is located in segment 0, the segment which includes the irq vectors.
+The only job for this, is to copy a new bios (if aviable) from a temporary location in flash to the target location.
+\n
+\n
+<b> search bios and move, if it is not on position</b/>\n
+<ul>
+<li>look for fixed normal identfy long word (0x2121FEDF), at normal position (0xFDFC).
+<ul><li>If found, copy irq pointer in RAM and start application (BIOS)</li></ul></li>
+<li>search flash downward for normal identfy long word, looking only at the top of each segment</li>
+<li>if not found, test normal identfy position on fallback identfy (0x21217ED7)
+<ul><li>if found, copy irq pointer in RAM and start application</li>
+        <li>if not found, jump to error, the red LED is lighting</li></ul></li>
+<li>get size (in segments) form word below the identyfy position</li>
+<li>erase target segments</li>
+<li>copy new application (BIOS), to the target position</li>
+<li>jump to start point of the safeCore</li>
+</ul>
+\n
+Bios header at upper address of the upper page\n
+addr 0xXXFE = 0xFEDF\n
+addr 0xXXFC = 0x2112\n
+addr 0xXXFA = size (size in pages, the pages must direct follow down this page)\n
+top of target is always 0xFDFF, the code must be on one block (no gaps supported)\n
+\n
+\b IMPORTANT 
+<ul>
+<li> the new application must be far enough form the target position. if the areas are overlapped, parts of the new application are erased</li>
+<li> the search function only test the 2 words at the top off segments</li>
+<li> the size field must be set (unit is segments (512 Byte size))</li>
+<li> code/data in INFO memory is not supported</li>
+<li> the safecore can't flash by it self</li>
+<li> the core can't communicate over USART or so</li>
+</ul>
+\n
+\b code: \ref safeCore.s43
+*/
+
+/*!
+  \author Detlef Fink (08/12/2010)
+  
+  Description see \ref safecore_page1
+*/
+; Registers R4, R5, R6, R7 used
+
+; only for test
+;ORG 0xFDF0
+;DW 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF
+;DW 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF
+;DW 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xE02C, 0x000F, 0x2112, 0xFEDF
+#include "msp430.h"
+
+#define SAFE_CORE_VERSION 0x0100
+#define BLINK_RATE 15
+
+ORG 0xFE00
+; --- interrupt vectors forwarding ---
+Vec0F:  mov &0x24E0,PC
+Vec0E:  mov &0x24E2,PC
+Vec0D:  mov &0x24E4,PC
+Vec0C:  mov &0x24E6,PC
+Vec0B:  mov &0x24E8,PC
+Vec0A:  mov &0x24EA,PC
+Vec09:  mov &0x24EC,PC
+Vec08:  mov &0x24EE,PC
+Vec07:  mov &0x24F0,PC
+Vec06:  mov &0x24F2,PC
+Vec05:  mov &0x24F4,PC
+Vec04:  mov &0x24F6,PC
+Vec03:  mov &0x24F8,PC
+Vec02:  mov &0x24FA,PC
+Vec01:  mov &0x24FC,PC
+
+; --- test for application ---
+Vec00:      
+        cmp   #0xFEDF,&0xFDFE
+        jne   search
+        cmp   #0x2112,&0xFDFC
+        jne   search
+
+; --- copy irq pointer into RAM and start application (BIOS) ---
+errstrt:                                      ; enter point, if second app- test has work
+        mov   #0x24FE,R4                      ; target
+        mov   #0xFDF8,R5                      ; source
+cpLoop: mov   @R5,0(R4)     
+        decd  R5
+        decd  R4
+        cmp   #0xFDD8,R5
+        jne   cpLoop
+        cmp   #0xFDDA,&0x24FE                 ; reset can't point in safecore or irq table of application (BIOS)
+        jhs   fault
+        mov.b #0x03,&P1DIR  ; both LEDs off
+        mov.b #0x00,&P1OUT
+        mov   &0x24FE,PC                      ; start bios
+; --- search for new application (BIOS) in flash ---
+search: 
+        mov.b #0x03,&P1DIR  ; on LED on, it alltenate at some time
+        mov.b #0x01,&P1OUT
+        mov   #BLINK_RATE,R8
+        mov   #0x2500,R4
+search2:
+        cmp   #0xFEDF,2(R4)
+        jne   err;                            search1
+        cmp   #0x2112,0(R4)
+        jne   err;                            search1
+        ;tst   -2(R4)                          ; test on zero, zero is not allowed
+        ;jz    err
+                                              ; test on overlapping with target area
+        ;mov   -2(R4),R6                       ; get size
+        ;swpb  R6                              ; convert segments to byte size
+        ;rlc   R6
+        ;and   #0xFE00,R6
+        ;mov   #0xFE00,R5
+        ;sub   R6,R5
+        ;cmp   R5,R4                           ; address in R4 must be lower then address in R5
+        ;jhs   err
+        jmp   found
+;search1:
+        ;sub   #0x200,R4
+        ;cmp   #0x2500,R4
+       ; jlo   err
+       ; jmp   search2
+; --- erase target area --- (erase core 0xE000 - 0xFE00)
+found:  
+        mov   &WDTCTL,R7
+        mov   #WDTPW + WDTHOLD,&WDTCTL
+                                              ; R6 holds the size in bytes
+                                              ; R5 holds the first segment to flash
+                                              ; R4 points to identfy long word
+        ;add   #4,R4                          ; now R4 point one address to high
+        ;sub   R6,R4                          ; subtract minimum one segment
+                                              ; delete pages
+        mov   #0xE000,R6                      ; safe fist address
+        mov   #FWKEY,&FCTL3
+        mov   #FWKEY + FN0+FSSEL_3,&FCTL2     ; DCO / 2 -> ~400kHz
+eraseLoop:        
+        mov   #FWKEY + ERASE,&FCTL1           ; release erase
+        dec   R8
+        jnz   eraseLoop2
+        mov   #BLINK_RATE,R8
+        xor.b #0x03,&P1OUT
+eraseLoop2:        
+        mov   #0xFFFF,0(R6)                                              ; no wait we run in flash 7 it is blocked/stoped while flashing/erasing
+        add   #0x200,R6
+        cmp   #0xFE00,R6
+        jlo   eraseLoop
+        
+; --- copy new application to target position(coppy new core) 
+; --- data arregment in FLASH 0x2500
+; --- 0x2500 contains Core Identify ID
+; --- 0x2504 Number of Sections
+; --- 0x2506 Start address of section
+; --- 0x2508 Number of words in section 
+flash:        
+       mov   #FWKEY + WRT,&FCTL1
+       ;get intial values of data
+       mov    0x2504 , R4       ; sections    
+       mov    #0x2506, R11      ; Array pointer
+flash0:        
+       mov    @ R11+, R5          ; address 1./x. section
+       mov    @R11+, R6          ; length  1./x. section (word)
+flash1: 
+        dec   R8
+        jnz   flash2
+        mov   #BLINK_RATE,R8
+        xor.b #0x03,&P1OUT
+flash2:      
+
+        mov   @R11+,0(R5)           ; write data and increment Array pointer          
+        incd  R5                    ; inc dest address pointer  
+        dec   R6                    ; dec num of words to program
+        jnz   flash1
+        dec   R4                    ; next section
+        jnz   flash0
+        
+        mov   #FWKEY+LOCK,&FCTL3
+        and   #0x00FF,R7
+        bis   #WDTPW+WDTCNTCL,R7
+                
+flash_write_done: 
+; --- flash is programmd start the tool new --- 
+        mov   R7,&WDTCTL        ; restart watchdog
+        mov   #0,WDTCTL
+        ;mov   &0xFFFE,PC        ; start loader new
+; --- test for old application ---
+err:
+        cmp   #0x7ED7,&0xFDFE
+        jne   fault
+        cmp   #0x2112,&0xFDFC
+        jeq   errstrt
+; --- no old or new application available ---
+fault:       
+        mov   #WDTPW + WDTHOLD,&WDTCTL
+        mov.b #0x03,&P1DIR  ; mode (red) LED on; BIT0; // LED mode; BIT1; // LED power
+        mov.b #0x01,&P1OUT
+faultLoop:        
+        jmp   faultLoop
+
+
+
+; --- reset & interrupt vectors ---
+ORG 0xFFDE
+DW SAFE_CORE_VERSION
+ORG 0xFFE0
+DW Vec0F
+DW Vec0E
+DW Vec0D
+DW Vec0C
+DW Vec0B
+DW Vec0A
+DW Vec09
+DW Vec08
+DW Vec07
+DW Vec06
+DW Vec05
+DW Vec04
+DW Vec03
+DW Vec02
+DW Vec01
+DW Vec00
+END

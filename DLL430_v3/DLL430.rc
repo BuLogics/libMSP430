@@ -1,0 +1,37 @@
+#include "version.h"
+#define VERSION_STRING4(major, minor, patch, build) #major "." #minor "." #patch "." #build
+#define VERSION_STRING(major, minor, patch, build) VERSION_STRING4(major, minor, patch, build)
+
+1 VERSIONINFO
+  FILEVERSION VERSION_MAJOR,VERSION_MINOR,VERSION_PATCH,VERSION_BUILD
+  PRODUCTVERSION VERSION_MAJOR,VERSION_MINOR,VERSION_PATCH,VERSION_BUILD
+  FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+  FILEFLAGS 0x1L
+#else
+  FILEFLAGS 0x0L
+#endif	
+  FILEOS 0x40004L
+  FILETYPE 0x2L
+  FILESUBTYPE 0x0L
+  BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+      BLOCK "040704b0"
+      BEGIN
+        VALUE "CompanyName", "Texas Instruments Incorporated"
+        VALUE "FileDescription", "MSP430 Debug Tool Access Library"
+        VALUE "FileVersion", VERSION_STRING(VERSION_MAJOR,VERSION_MINOR,VERSION_PATCH,VERSION_BUILD)
+        VALUE "InternalName", "MSP430"
+        VALUE "LegalCopyright", "Copyright (C) 2007 - 2011"
+        VALUE "OriginalFilename", "MSP430.dll"
+        VALUE "ProductName", "MSP430 Dynamic Link Library"
+        VALUE "ProductVersion", VERSION_STRING(VERSION_MAJOR,VERSION_MINOR,VERSION_PATCH,VERSION_BUILD)
+		VALUE "BuildNumber", "0000"
+      END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+      VALUE "Translation", 0x407, 1200
+    END
+  END

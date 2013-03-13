@@ -1,0 +1,2340 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ALL_RESETS"><param name="Name" value="ALL_RESETS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a27"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="AUTOMATIC_IF"><param name="Name" value="AUTOMATIC_IF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a51"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_DATA_BLOCK_PROGRAMMED"><param name="Name" value="BL_DATA_BLOCK_PROGRAMMED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a6"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_ERASE_FIRMWARE"><param name="Name" value="BL_ERASE_FIRMWARE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a4"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_ERASE_INT_VECTORS"><param name="Name" value="BL_ERASE_INT_VECTORS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a3"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_EXIT"><param name="Name" value="BL_EXIT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a7"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_INIT"><param name="Name" value="BL_INIT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a2"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_PROGRAM_FIRMWARE"><param name="Name" value="BL_PROGRAM_FIRMWARE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a5"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_UPDATE_DONE"><param name="Name" value="BL_UPDATE_DONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a8"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_UPDATE_ERROR"><param name="Name" value="BL_UPDATE_ERROR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a9"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BL_WAIT_FOR_TIMEOUT"><param name="Name" value="BL_WAIT_FOR_TIMEOUT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a10"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_BRK"><param name="Name" value="BP_BRK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a61"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_BRK_STO"><param name="Name" value="BP_BRK_STO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a63"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_CLEAR"><param name="Name" value="BP_CLEAR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a37"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_CODE"><param name="Name" value="BP_CODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a38"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_COMPLEX"><param name="Name" value="BP_COMPLEX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a40"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_COND"><param name="Name" value="BP_COND"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a143a71"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_DMA"><param name="Name" value="BP_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a53"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_DONT_CARE"><param name="Name" value="BP_DONT_CARE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a47"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_EQUAL"><param name="Name" value="BP_EQUAL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a64"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_FETCH"><param name="Name" value="BP_FETCH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a44"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_FETCH_HOLD"><param name="Name" value="BP_FETCH_HOLD"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a45"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_GREATER"><param name="Name" value="BP_GREATER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a65"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_INSIDE"><param name="Name" value="BP_INSIDE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a142a68"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_LOWER"><param name="Name" value="BP_LOWER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a66"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_MAB"><param name="Name" value="BP_MAB"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138a41"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_MDB"><param name="Name" value="BP_MDB"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138a42"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_COND"><param name="Name" value="BP_NO_COND"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a143a70"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_DMA"><param name="Name" value="BP_NO_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a54"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_FETCH"><param name="Name" value="BP_NO_FETCH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a46"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_FETCH_NO_DMA"><param name="Name" value="BP_NO_FETCH_NO_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a52"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_FETCH_READ"><param name="Name" value="BP_NO_FETCH_READ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a48"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_FETCH_READ_NO_DMA"><param name="Name" value="BP_NO_FETCH_READ_NO_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a56"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NO_FETCH_WRITE"><param name="Name" value="BP_NO_FETCH_WRITE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a49"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_NONE"><param name="Name" value="BP_NONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a60"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_OUTSIDE"><param name="Name" value="BP_OUTSIDE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a142a69"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_RANGE"><param name="Name" value="BP_RANGE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a39"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_READ"><param name="Name" value="BP_READ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a50"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_READ_DMA"><param name="Name" value="BP_READ_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a58"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_READ_NO_DMA"><param name="Name" value="BP_READ_NO_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a57"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_REGISTER"><param name="Name" value="BP_REGISTER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138a43"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_STO"><param name="Name" value="BP_STO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a62"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_UNEQUAL"><param name="Name" value="BP_UNEQUAL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a67"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_WRITE"><param name="Name" value="BP_WRITE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a51"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_WRITE_DMA"><param name="Name" value="BP_WRITE_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a59"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BP_WRITE_NO_DMA"><param name="Name" value="BP_WRITE_NO_DMA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a55"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpAccess"><param name="Name" value="bpAccess"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o4"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpAccess"><param name="Name" value="BpAccess"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpAccess_t"><param name="Name" value="BpAccess_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a4"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpAction"><param name="Name" value="bpAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o5"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpAction"><param name="Name" value="BpAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpAction"><param name="Name" value="bpAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o2"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpAction_t"><param name="Name" value="BpAction_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a5"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpCondAccess"><param name="Name" value="bpCondAccess"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o12"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpCondition"><param name="Name" value="bpCondition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o10"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpCondition"><param name="Name" value="BpCondition"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a143"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpCondition_t"><param name="Name" value="BpCondition_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a8"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpCondOperat"><param name="Name" value="bpCondOperat"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o14"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpMode"><param name="Name" value="bpMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o0"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpMode"><param name="Name" value="BpMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpMode_t"><param name="Name" value="BpMode_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a2"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpOperat"><param name="Name" value="bpOperat"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o6"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpOperat"><param name="Name" value="BpOperat"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpOperat_t"><param name="Name" value="BpOperat_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a6"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpParameter_t"><param name="Name" value="BpParameter_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a9"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpRangeAction"><param name="Name" value="bpRangeAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o9"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpRangeAction"><param name="Name" value="BpRangeAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a142"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpRangeAction_t"><param name="Name" value="BpRangeAction_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a7"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bpType"><param name="Name" value="bpType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o2"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpType"><param name="Name" value="BpType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BpType_t"><param name="Name" value="BpType_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a3"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html"><param name="Name" value="BREAKPOINT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o4"><param name="Name" value="bpAccess"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o5"><param name="Name" value="bpAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o12"><param name="Name" value="bpCondAccess"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o10"><param name="Name" value="bpCondition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o14"><param name="Name" value="bpCondOperat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o0"><param name="Name" value="bpMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o6"><param name="Name" value="bpOperat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o9"><param name="Name" value="bpRangeAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o2"><param name="Name" value="bpType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o1"><param name="Name" value="lAddrVal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o13"><param name="Name" value="lCondMask"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o11"><param name="Name" value="lCondMdbVal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o7"><param name="Name" value="lMask"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o8"><param name="Name" value="lRangeEndAdVa"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o3"><param name="Name" value="lReg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o15"><param name="Name" value="wExtCombine"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="BREAKPOINT_HIT"><param name="Name" value="BREAKPOINT_HIT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a29"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bslEnd"><param name="Name" value="bslEnd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o21"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="bslStart"><param name="Name" value="bslStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o20"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="buffer"><param name="Name" value="buffer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o0"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CB_CLEAR"><param name="Name" value="CB_CLEAR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a144a73"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CB_SET"><param name="Name" value="CB_SET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a144a72"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CbControl"><param name="Name" value="CbControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a144"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CbControl_t"><param name="Name" value="CbControl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a10"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_ACLK"><param name="Name" value="CC_ACLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a104"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_ADC"><param name="Name" value="CC_ADC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a103"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_ALLRUN"><param name="Name" value="CC_ALLRUN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a92"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_BASIC_TIMER"><param name="Name" value="CC_BASIC_TIMER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a96"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_DISABLE"><param name="Name" value="CC_DISABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a151a90"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_ENABLE"><param name="Name" value="CC_ENABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a151a91"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_FLASH_CNTRL"><param name="Name" value="CC_FLASH_CNTRL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a102"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_LCD_FREQ"><param name="Name" value="CC_LCD_FREQ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a97"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_MCLK"><param name="Name" value="CC_MCLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a106"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_SMCLK"><param name="Name" value="CC_SMCLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a105"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_STP_ACLK"><param name="Name" value="CC_STP_ACLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a108"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_STP_MCLK"><param name="Name" value="CC_STP_MCLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a110"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_STP_NONE"><param name="Name" value="CC_STP_NONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a107"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_STP_SMCLK"><param name="Name" value="CC_STP_SMCLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a109"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_STP_TACLK"><param name="Name" value="CC_STP_TACLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a111"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_TIMER_A"><param name="Name" value="CC_TIMER_A"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a94"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_TIMER_B"><param name="Name" value="CC_TIMER_B"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a95"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_TIMER_COUNTER"><param name="Name" value="CC_TIMER_COUNTER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a98"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_TIMER_PORT"><param name="Name" value="CC_TIMER_PORT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a99"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_USART0"><param name="Name" value="CC_USART0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a100"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_USART1"><param name="Name" value="CC_USART1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a101"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CC_WDT"><param name="Name" value="CC_WDT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a93"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ccControl"><param name="Name" value="ccControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html#o0"><param name="Name" value="CLOCK_CONTROL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcControl"><param name="Name" value="CcControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a151"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcControl_t"><param name="Name" value="CcControl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a21"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ccGeneralCLK"><param name="Name" value="ccGeneralCLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html#o2"><param name="Name" value="CLOCK_CONTROL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcGeneralCLK"><param name="Name" value="CcGeneralCLK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcGeneralCLK_t"><param name="Name" value="CcGeneralCLK_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a23"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ccModule"><param name="Name" value="ccModule"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html#o1"><param name="Name" value="CLOCK_CONTROL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcModule"><param name="Name" value="CcModule"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcModule_t"><param name="Name" value="CcModule_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a22"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CcParameter_t"><param name="Name" value="CcParameter_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a24"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html"><param name="Name" value="CLOCK_CONTROL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html#o0"><param name="Name" value="ccControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html#o2"><param name="Name" value="ccGeneralCLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structCLOCK__CONTROL.html#o1"><param name="Name" value="ccModule"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="clockControl"><param name="Name" value="clockControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o9"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CONFIG_MODE"><param name="Name" value="CONFIG_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CONFIG_MODE_t"><param name="Name" value="CONFIG_MODE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a8"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="coreIpId"><param name="Name" value="coreIpId"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o26"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CPU_ARCH_ORIGINAL"><param name="Name" value="CPU_ARCH_ORIGINAL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86a16"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CPU_ARCH_TYPE"><param name="Name" value="CPU_ARCH_TYPE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CPU_ARCH_TYPE_t"><param name="Name" value="CPU_ARCH_TYPE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a3"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CPU_ARCH_X"><param name="Name" value="CPU_ARCH_X"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86a17"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="CPU_ARCH_XV2"><param name="Name" value="CPU_ARCH_XV2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86a18"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="cpuArch"><param name="Name" value="cpuArch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o24"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEBUG_LPM_X"><param name="Name" value="DEBUG_LPM_X"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a45"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_CLOCK_CONTROL"><param name="Name" value="DEVICE_CLOCK_CONTROL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_CLOCK_CONTROL_t"><param name="Name" value="DEVICE_CLOCK_CONTROL_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a4"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_CODE"><param name="Name" value="DEVICE_CODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a43"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_CONNECTION_LOST"><param name="Name" value="DEVICE_CONNECTION_LOST"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a57"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_IN_LPM5_MODE"><param name="Name" value="DEVICE_IN_LPM5_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a59"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_REGISTERS"><param name="Name" value="DEVICE_REGISTERS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_REGISTERS_t"><param name="Name" value="DEVICE_REGISTERS_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a0"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html"><param name="Name" value="DEVICE_T"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o21"><param name="Name" value="bslEnd"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o20"><param name="Name" value="bslStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o0"><param name="Name" value="buffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o9"><param name="Name" value="clockControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o26"><param name="Name" value="coreIpId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o24"><param name="Name" value="cpuArch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o27"><param name="Name" value="deviceIdPtr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o28"><param name="Name" value="eemVersion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o8"><param name="Name" value="emulation"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o1"><param name="Name" value="endian"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o38"><param name="Name" value="HasFramMemroy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o14"><param name="Name" value="hasTestVpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o2"><param name="Name" value="id"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o18"><param name="Name" value="infoEnd"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o5"><param name="Name" value="infoStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o25"><param name="Name" value="jtagId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o11"><param name="Name" value="lcdEnd"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o10"><param name="Name" value="lcdStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o19"><param name="Name" value="mainEnd"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o4"><param name="Name" value="mainStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o7"><param name="Name" value="nBreakpoints"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o31"><param name="Name" value="nBreakpointsDma"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o29"><param name="Name" value="nBreakpointsOptions"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o30"><param name="Name" value="nBreakpointsReadWrite"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o23"><param name="Name" value="nCombinations"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o35"><param name="Name" value="nCycleCounter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o36"><param name="Name" value="nCycleCounterOperations"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o22"><param name="Name" value="nRegTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o33"><param name="Name" value="nRegTriggerOperations"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o37"><param name="Name" value="nSequencer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o34"><param name="Name" value="nStateStorage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o17"><param name="Name" value="ram2End"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o16"><param name="Name" value="ram2Start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o6"><param name="Name" value="ramEnd"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o15"><param name="Name" value="ramStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o3"><param name="Name" value="string"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o32"><param name="Name" value="TrigerMask"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o13"><param name="Name" value="vccMaxOp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o12"><param name="Name" value="vccMinOp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_T_t"><param name="Name" value="DEVICE_T_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a2"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DEVICE_WAKEUP_LPM5_MODE"><param name="Name" value="DEVICE_WAKEUP_LPM5_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a60"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="deviceIdPtr"><param name="Name" value="deviceIdPtr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o27"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DISABLE"><param name="Name" value="DISABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a88a21"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="DLL430_FET_NOTIFY_FUNC"><param name="Name" value="DLL430_FET_NOTIFY_FUNC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a0"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EDT_TRACE_MODE"><param name="Name" value="EDT_TRACE_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a38"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o15"><param name="Name" value="GENCLKCTRL0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o14"><param name="Name" value="GENCLKCTRL1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o13"><param name="Name" value="GENCLKCTRL2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o12"><param name="Name" value="GENCLKCTRL3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o11"><param name="Name" value="GENCLKCTRL4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o10"><param name="Name" value="GENCLKCTRL5"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o9"><param name="Name" value="GENCLKCTRL6"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o8"><param name="Name" value="GENCLKCTRL7"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o7"><param name="Name" value="GENCLKCTRL8"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o6"><param name="Name" value="GENCLKCTRL9"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o5"><param name="Name" value="GENCLKCTRLA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o4"><param name="Name" value="GENCLKCTRLB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o3"><param name="Name" value="GENCLKCTRLC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o2"><param name="Name" value="GENCLKCTRLD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o1"><param name="Name" value="GENCLKCTRLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o0"><param name="Name" value="GENCLKCTRLF"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o15"><param name="Name" value="MCLKCTRL00"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o14"><param name="Name" value="MCLKCTRL01"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o13"><param name="Name" value="MCLKCTRL02"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o12"><param name="Name" value="MCLKCTRL03"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o11"><param name="Name" value="MCLKCTRL04"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o10"><param name="Name" value="MCLKCTRL05"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o9"><param name="Name" value="MCLKCTRL06"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o8"><param name="Name" value="MCLKCTRL07"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o7"><param name="Name" value="MCLKCTRL08"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o6"><param name="Name" value="MCLKCTRL09"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o5"><param name="Name" value="MCLKCTRL0A"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o4"><param name="Name" value="MCLKCTRL0B"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o3"><param name="Name" value="MCLKCTRL0C"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o2"><param name="Name" value="MCLKCTRL0D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o1"><param name="Name" value="MCLKCTRL0E"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o0"><param name="Name" value="MCLKCTRL0F"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o31"><param name="Name" value="MCLKCTRL10"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o30"><param name="Name" value="MCLKCTRL11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o29"><param name="Name" value="MCLKCTRL12"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o28"><param name="Name" value="MCLKCTRL13"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o27"><param name="Name" value="MCLKCTRL14"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o26"><param name="Name" value="MCLKCTRL15"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o25"><param name="Name" value="MCLKCTRL16"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o24"><param name="Name" value="MCLKCTRL17"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o23"><param name="Name" value="MCLKCTRL18"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o22"><param name="Name" value="MCLKCTRL19"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o21"><param name="Name" value="MCLKCTRL1A"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o20"><param name="Name" value="MCLKCTRL1B"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o19"><param name="Name" value="MCLKCTRL1C"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o18"><param name="Name" value="MCLKCTRL1D"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o17"><param name="Name" value="MCLKCTRL1E"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o16"><param name="Name" value="MCLKCTRL1F"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EemGclkCtrl_t"><param name="Name" value="EemGclkCtrl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a5"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EemMclkCtrl_t"><param name="Name" value="EemMclkCtrl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a6"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="eemVersion"><param name="Name" value="eemVersion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o28"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_EXTRA_SMALL_5XX"><param name="Name" value="EMEX_EXTRA_SMALL_5XX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a36"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_HIGH"><param name="Name" value="EMEX_HIGH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a35"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_LARGE_5XX"><param name="Name" value="EMEX_LARGE_5XX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a39"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_LOW"><param name="Name" value="EMEX_LOW"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a33"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_MEDIUM"><param name="Name" value="EMEX_MEDIUM"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a34"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_MEDIUM_5XX"><param name="Name" value="EMEX_MEDIUM_5XX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a38"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_MODE"><param name="Name" value="EMEX_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_MODE_t"><param name="Name" value="EMEX_MODE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a3"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_NONE"><param name="Name" value="EMEX_NONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a32"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMEX_SMALL_5XX"><param name="Name" value="EMEX_SMALL_5XX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a37"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="emulation"><param name="Name" value="emulation"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o8"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="EMULATION_MODE"><param name="Name" value="EMULATION_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a36"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ENABLE"><param name="Name" value="ENABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a88a22"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ENABLE_DISABLE"><param name="Name" value="ENABLE_DISABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a88"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ENABLE_DISABLE_t"><param name="Name" value="ENABLE_DISABLE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a5"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="endian"><param name="Name" value="endian"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o1"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERASE_ALL"><param name="Name" value="ERASE_ALL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a33"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERASE_MAIN"><param name="Name" value="ERASE_MAIN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a32"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERASE_SEGMENT"><param name="Name" value="ERASE_SEGMENT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a31"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERASE_TOTAL"><param name="Name" value="ERASE_TOTAL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a34"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERASE_TYPE"><param name="Name" value="ERASE_TYPE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERASE_TYPE_t"><param name="Name" value="ERASE_TYPE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a7"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERROR_CODE"><param name="Name" value="ERROR_CODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a94"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERROR_CODE_t"><param name="Name" value="ERROR_CODE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a11"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ERROR_DEFINITIONS"><param name="Name" value="ERROR_DEFINITIONS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a94a55"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FET_CONNECTION_LOST"><param name="Name" value="FET_CONNECTION_LOST"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a56"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FET_RESTART_NEEDED"><param name="Name" value="FET_RESTART_NEEDED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a58"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FILE_TYPE"><param name="Name" value="FILE_TYPE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FILE_TYPE_t"><param name="Name" value="FILE_TYPE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a10"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FILETYPE_AUTO"><param name="Name" value="FILETYPE_AUTO"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93a52"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FILETYPE_INTEL_HEX"><param name="Name" value="FILETYPE_INTEL_HEX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93a54"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FILETYPE_TI_TXT"><param name="Name" value="FILETYPE_TI_TXT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93a53"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FORCE_PUC_RESET"><param name="Name" value="FORCE_PUC_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a28"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FORCE_RESET"><param name="Name" value="FORCE_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a26"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FORCE_RST_RESET"><param name="Name" value="FORCE_RST_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a29"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FORCE_VCC_RESET"><param name="Name" value="FORCE_VCC_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a30"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="FREE_RUN"><param name="Name" value="FREE_RUN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51a23"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GCC_EXTENDED"><param name="Name" value="GCC_EXTENDED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54a42"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GCC_NONE"><param name="Name" value="GCC_NONE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54a40"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GCC_STANDARD"><param name="Name" value="GCC_STANDARD"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54a41"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL0"><param name="Name" value="GENCLKCTRL0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o15"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL1"><param name="Name" value="GENCLKCTRL1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o14"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL2"><param name="Name" value="GENCLKCTRL2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o13"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL3"><param name="Name" value="GENCLKCTRL3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o12"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL4"><param name="Name" value="GENCLKCTRL4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o11"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL5"><param name="Name" value="GENCLKCTRL5"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o10"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL6"><param name="Name" value="GENCLKCTRL6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o9"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL7"><param name="Name" value="GENCLKCTRL7"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o8"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL8"><param name="Name" value="GENCLKCTRL8"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o7"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRL9"><param name="Name" value="GENCLKCTRL9"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o6"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRLA"><param name="Name" value="GENCLKCTRLA"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o5"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRLB"><param name="Name" value="GENCLKCTRLB"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o4"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRLC"><param name="Name" value="GENCLKCTRLC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o3"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRLD"><param name="Name" value="GENCLKCTRLD"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o2"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRLE"><param name="Name" value="GENCLKCTRLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o1"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="GENCLKCTRLF"><param name="Name" value="GENCLKCTRLF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__GCLKCTRL.html#o0"><param name="Name" value="EEM_GCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="HasFramMemroy"><param name="Name" value="HasFramMemroy"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o38"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="hasTestVpp"><param name="Name" value="hasTestVpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o14"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="id"><param name="Name" value="id"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o2"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="infoEnd"><param name="Name" value="infoEnd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o18"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="infoStart"><param name="Name" value="infoStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o5"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="INTERFACE_MODE"><param name="Name" value="INTERFACE_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a39"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="INTERFACE_TYPE"><param name="Name" value="INTERFACE_TYPE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="INTERFACE_TYPE_t"><param name="Name" value="INTERFACE_TYPE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a9"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="JTAG_IF"><param name="Name" value="JTAG_IF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a48"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="JTAG_SPEED"><param name="Name" value="JTAG_SPEED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a46"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="jtagId"><param name="Name" value="jtagId"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o25"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lAddr"><param name="Name" value="lAddr"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html#o1"><param name="Name" value="VAR_WATCH_RESOURCES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html#o1"><param name="Name" value="VARIABLE_WATCH"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lAddrVal"><param name="Name" value="lAddrVal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o1"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lcdEnd"><param name="Name" value="lcdEnd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o11"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lcdStart"><param name="Name" value="lcdStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o10"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lCondMask"><param name="Name" value="lCondMask"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o13"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lCondMdbVal"><param name="Name" value="lCondMdbVal"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o11"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lMask"><param name="Name" value="lMask"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o7"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="LOCKED_FLASH_ACCESS"><param name="Name" value="LOCKED_FLASH_ACCESS"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a37"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="LPMX5_MODE"><param name="Name" value="LPMX5_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a30"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="LPMX5_WAKEUP"><param name="Name" value="LPMX5_WAKEUP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a31"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lRangeEndAdVa"><param name="Name" value="lRangeEndAdVa"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o8"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lReg"><param name="Name" value="lReg"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o3"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lTrBufMAB"><param name="Name" value="lTrBufMAB"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html#o0"><param name="Name" value="TRACE_BUFFER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="lTrBufMDB"><param name="Name" value="lTrBufMDB"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html#o1"><param name="Name" value="TRACE_BUFFER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="mainEnd"><param name="Name" value="mainEnd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o19"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="mainStart"><param name="Name" value="mainStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o4"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL00"><param name="Name" value="MCLKCTRL00"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o15"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL01"><param name="Name" value="MCLKCTRL01"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o14"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL02"><param name="Name" value="MCLKCTRL02"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o13"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL03"><param name="Name" value="MCLKCTRL03"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o12"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL04"><param name="Name" value="MCLKCTRL04"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o11"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL05"><param name="Name" value="MCLKCTRL05"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o10"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL06"><param name="Name" value="MCLKCTRL06"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o9"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL07"><param name="Name" value="MCLKCTRL07"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o8"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL08"><param name="Name" value="MCLKCTRL08"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o7"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL09"><param name="Name" value="MCLKCTRL09"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o6"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL0A"><param name="Name" value="MCLKCTRL0A"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o5"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL0B"><param name="Name" value="MCLKCTRL0B"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o4"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL0C"><param name="Name" value="MCLKCTRL0C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o3"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL0D"><param name="Name" value="MCLKCTRL0D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o2"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL0E"><param name="Name" value="MCLKCTRL0E"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o1"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL0F"><param name="Name" value="MCLKCTRL0F"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o0"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL10"><param name="Name" value="MCLKCTRL10"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o31"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL11"><param name="Name" value="MCLKCTRL11"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o30"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL12"><param name="Name" value="MCLKCTRL12"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o29"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL13"><param name="Name" value="MCLKCTRL13"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o28"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL14"><param name="Name" value="MCLKCTRL14"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o27"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL15"><param name="Name" value="MCLKCTRL15"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o26"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL16"><param name="Name" value="MCLKCTRL16"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o25"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL17"><param name="Name" value="MCLKCTRL17"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o24"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL18"><param name="Name" value="MCLKCTRL18"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o23"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL19"><param name="Name" value="MCLKCTRL19"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o22"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL1A"><param name="Name" value="MCLKCTRL1A"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o21"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL1B"><param name="Name" value="MCLKCTRL1B"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o20"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL1C"><param name="Name" value="MCLKCTRL1C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o19"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL1D"><param name="Name" value="MCLKCTRL1D"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o18"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL1E"><param name="Name" value="MCLKCTRL1E"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o17"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MCLKCTRL1F"><param name="Name" value="MCLKCTRL1F"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structEEM__MCLKCTRL.html#o16"><param name="Name" value="EEM_MCLKCTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o1"><param name="Name" value="uiMsgIdBreakpoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o5"><param name="Name" value="uiMsgIdCPUStopped"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o0"><param name="Name" value="uiMsgIdSingleStep"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o3"><param name="Name" value="uiMsgIdState"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o2"><param name="Name" value="uiMsgIdStorage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o4"><param name="Name" value="uiMsgIdWarning"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MessageID_t"><param name="Name" value="MessageID_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a0"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html"><param name="Name" value="MSP430.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a27"><param name="Name" value="ALL_RESETS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a51"><param name="Name" value="AUTOMATIC_IF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91"><param name="Name" value="CONFIG_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a8"><param name="Name" value="CONFIG_MODE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86a16"><param name="Name" value="CPU_ARCH_ORIGINAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86"><param name="Name" value="CPU_ARCH_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a3"><param name="Name" value="CPU_ARCH_TYPE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86a17"><param name="Name" value="CPU_ARCH_X"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a86a18"><param name="Name" value="CPU_ARCH_XV2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a45"><param name="Name" value="DEBUG_LPM_X"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a43"><param name="Name" value="DEVICE_CODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a57"><param name="Name" value="DEVICE_CONNECTION_LOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a59"><param name="Name" value="DEVICE_IN_LPM5_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a2"><param name="Name" value="DEVICE_T_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a60"><param name="Name" value="DEVICE_WAKEUP_LPM5_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a88a21"><param name="Name" value="DISABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a38"><param name="Name" value="EDT_TRACE_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a36"><param name="Name" value="EMULATION_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a88a22"><param name="Name" value="ENABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a88"><param name="Name" value="ENABLE_DISABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a5"><param name="Name" value="ENABLE_DISABLE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a33"><param name="Name" value="ERASE_ALL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a32"><param name="Name" value="ERASE_MAIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a31"><param name="Name" value="ERASE_SEGMENT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90a34"><param name="Name" value="ERASE_TOTAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a90"><param name="Name" value="ERASE_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a7"><param name="Name" value="ERASE_TYPE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a94"><param name="Name" value="ERROR_CODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a11"><param name="Name" value="ERROR_CODE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a94a55"><param name="Name" value="ERROR_DEFINITIONS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a56"><param name="Name" value="FET_CONNECTION_LOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95a58"><param name="Name" value="FET_RESTART_NEEDED"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93"><param name="Name" value="FILE_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a10"><param name="Name" value="FILE_TYPE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93a52"><param name="Name" value="FILETYPE_AUTO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93a54"><param name="Name" value="FILETYPE_INTEL_HEX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a93a53"><param name="Name" value="FILETYPE_TI_TXT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a28"><param name="Name" value="FORCE_PUC_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a26"><param name="Name" value="FORCE_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a29"><param name="Name" value="FORCE_RST_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a30"><param name="Name" value="FORCE_VCC_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a39"><param name="Name" value="INTERFACE_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92"><param name="Name" value="INTERFACE_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a9"><param name="Name" value="INTERFACE_TYPE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a48"><param name="Name" value="JTAG_IF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a46"><param name="Name" value="JTAG_SPEED"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a37"><param name="Name" value="LOCKED_FLASH_ACCESS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a63"><param name="Name" value="MSP430_Close"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a68"><param name="Name" value="MSP430_Configure"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a67"><param name="Name" value="MSP430_Device"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a73"><param name="Name" value="MSP430_Erase"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a80"><param name="Name" value="MSP430_EraseCheck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a81"><param name="Name" value="MSP430_Error_Number"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a82"><param name="Name" value="MSP430_Error_String"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a70"><param name="Name" value="MSP430_GetCurVCCT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a71"><param name="Name" value="MSP430_GetExtVoltage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a65"><param name="Name" value="MSP430_GetFoundDevice"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a64"><param name="Name" value="MSP430_GetJtagID"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a84"><param name="Name" value="MSP430_GetNameOfUsbIf"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a83"><param name="Name" value="MSP430_GetNumberOfUsbIfs"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a62"><param name="Name" value="MSP430_Initialize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a74"><param name="Name" value="MSP430_Memory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a66"><param name="Name" value="MSP430_OpenDevice"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a77"><param name="Name" value="MSP430_ProgramFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a76"><param name="Name" value="MSP430_ReadOutFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a72"><param name="Name" value="MSP430_Reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a75"><param name="Name" value="MSP430_Secure"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a61"><param name="Name" value="MSP430_SET_SYSTEM_NOTIFY_CALLBACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a69"><param name="Name" value="MSP430_VCC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a78"><param name="Name" value="MSP430_VerifyFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a79"><param name="Name" value="MSP430_VerifyMem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a23"><param name="Name" value="PUC_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a41"><param name="Name" value="RAM_PRESERVE_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a87a20"><param name="Name" value="READ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a87"><param name="Name" value="READ_WRITE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a4"><param name="Name" value="READ_WRITE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89"><param name="Name" value="RESET_METHOD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a6"><param name="Name" value="RESET_METHOD_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a24"><param name="Name" value="RST_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a40"><param name="Name" value="SET_MDB_BEFORE_RUN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a49"><param name="Name" value="SPYBIWIRE_IF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a50"><param name="Name" value="SPYBIWIREJTAG_IF"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a85"><param name="Name" value="STATUS_CODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a1"><param name="Name" value="STATUS_CODE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a85a14"><param name="Name" value="STATUS_ERROR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a85a15"><param name="Name" value="STATUS_OK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a0"><param name="Name" value="STATUS_T"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95"><param name="Name" value="SYSTEM_EVENT_MSP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a12"><param name="Name" value="SYSTEM_EVENT_MSP_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a13"><param name="Name" value="SYSTEM_NOTIFY_CALLBACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a47"><param name="Name" value="TOTAL_ERASE_DEVICE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a42"><param name="Name" value="UNLOCK_BSL_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a25"><param name="Name" value="VCC_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a35"><param name="Name" value="VERIFICATION_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a87a19"><param name="Name" value="WRITE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a44"><param name="Name" value="WRITE_EXTERNAL_MEMORY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_CcGetClockNames"><param name="Name" value="MSP430_CcGetClockNames"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a48"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_CcGetModuleNames"><param name="Name" value="MSP430_CcGetModuleNames"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a49"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Close"><param name="Name" value="MSP430_Close"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a63"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Configure"><param name="Name" value="MSP430_Configure"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a68"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a29"><param name="Name" value="BREAKPOINT_HIT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54"><param name="Name" value="DEVICE_CLOCK_CONTROL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a4"><param name="Name" value="DEVICE_CLOCK_CONTROL_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50"><param name="Name" value="DEVICE_REGISTERS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a0"><param name="Name" value="DEVICE_REGISTERS_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a5"><param name="Name" value="EemGclkCtrl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a6"><param name="Name" value="EemMclkCtrl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a36"><param name="Name" value="EMEX_EXTRA_SMALL_5XX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a35"><param name="Name" value="EMEX_HIGH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a39"><param name="Name" value="EMEX_LARGE_5XX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a33"><param name="Name" value="EMEX_LOW"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a34"><param name="Name" value="EMEX_MEDIUM"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a38"><param name="Name" value="EMEX_MEDIUM_5XX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53"><param name="Name" value="EMEX_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a3"><param name="Name" value="EMEX_MODE_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a32"><param name="Name" value="EMEX_NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a53a37"><param name="Name" value="EMEX_SMALL_5XX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51a23"><param name="Name" value="FREE_RUN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54a42"><param name="Name" value="GCC_EXTENDED"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54a40"><param name="Name" value="GCC_NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a54a41"><param name="Name" value="GCC_STANDARD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a30"><param name="Name" value="LPMX5_MODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a31"><param name="Name" value="LPMX5_WAKEUP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a48"><param name="Name" value="MSP430_CcGetClockNames"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a49"><param name="Name" value="MSP430_CcGetModuleNames"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a44"><param name="Name" value="MSP430_ExtRegisters"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a45"><param name="Name" value="MSP430_Register"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a43"><param name="Name" value="MSP430_Registers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a46"><param name="Name" value="MSP430_Run"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a47"><param name="Name" value="MSP430_State"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a7"><param name="Name" value="R0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a8"><param name="Name" value="R1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a17"><param name="Name" value="R10"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a18"><param name="Name" value="R11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a19"><param name="Name" value="R12"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a20"><param name="Name" value="R13"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a21"><param name="Name" value="R14"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a22"><param name="Name" value="R15"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a9"><param name="Name" value="R2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a10"><param name="Name" value="R3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a11"><param name="Name" value="R4"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a12"><param name="Name" value="R5"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a13"><param name="Name" value="R6"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a14"><param name="Name" value="R7"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a15"><param name="Name" value="R8"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a16"><param name="Name" value="R9"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51"><param name="Name" value="RUN_MODES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a1"><param name="Name" value="RUN_MODES_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51a25"><param name="Name" value="RUN_TO_BREAKPOINT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a27"><param name="Name" value="RUNNING"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51a24"><param name="Name" value="SINGLE_STEP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a28"><param name="Name" value="SINGLE_STEP_COMPLETE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52"><param name="Name" value="STATE_MODES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a2"><param name="Name" value="STATE_MODES_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a26"><param name="Name" value="STOPPED"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Device"><param name="Name" value="MSP430_Device"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a67"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a61"><param name="Name" value="BP_BRK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a63"><param name="Name" value="BP_BRK_STO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a37"><param name="Name" value="BP_CLEAR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a38"><param name="Name" value="BP_CODE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a40"><param name="Name" value="BP_COMPLEX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a143a71"><param name="Name" value="BP_COND"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a53"><param name="Name" value="BP_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a47"><param name="Name" value="BP_DONT_CARE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a64"><param name="Name" value="BP_EQUAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a44"><param name="Name" value="BP_FETCH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a45"><param name="Name" value="BP_FETCH_HOLD"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a65"><param name="Name" value="BP_GREATER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a142a68"><param name="Name" value="BP_INSIDE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a66"><param name="Name" value="BP_LOWER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138a41"><param name="Name" value="BP_MAB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138a42"><param name="Name" value="BP_MDB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a143a70"><param name="Name" value="BP_NO_COND"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a54"><param name="Name" value="BP_NO_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a46"><param name="Name" value="BP_NO_FETCH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a52"><param name="Name" value="BP_NO_FETCH_NO_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a48"><param name="Name" value="BP_NO_FETCH_READ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a56"><param name="Name" value="BP_NO_FETCH_READ_NO_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a49"><param name="Name" value="BP_NO_FETCH_WRITE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a60"><param name="Name" value="BP_NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a142a69"><param name="Name" value="BP_OUTSIDE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137a39"><param name="Name" value="BP_RANGE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a50"><param name="Name" value="BP_READ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a58"><param name="Name" value="BP_READ_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a57"><param name="Name" value="BP_READ_NO_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138a43"><param name="Name" value="BP_REGISTER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140a62"><param name="Name" value="BP_STO"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141a67"><param name="Name" value="BP_UNEQUAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a51"><param name="Name" value="BP_WRITE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a59"><param name="Name" value="BP_WRITE_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139a55"><param name="Name" value="BP_WRITE_NO_DMA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a139"><param name="Name" value="BpAccess"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a4"><param name="Name" value="BpAccess_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a140"><param name="Name" value="BpAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a5"><param name="Name" value="BpAction_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a143"><param name="Name" value="BpCondition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a8"><param name="Name" value="BpCondition_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a137"><param name="Name" value="BpMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a2"><param name="Name" value="BpMode_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a141"><param name="Name" value="BpOperat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a6"><param name="Name" value="BpOperat_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a9"><param name="Name" value="BpParameter_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a142"><param name="Name" value="BpRangeAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a7"><param name="Name" value="BpRangeAction_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a138"><param name="Name" value="BpType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a3"><param name="Name" value="BpType_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a144a73"><param name="Name" value="CB_CLEAR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a144a72"><param name="Name" value="CB_SET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a144"><param name="Name" value="CbControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a10"><param name="Name" value="CbControl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a104"><param name="Name" value="CC_ACLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a103"><param name="Name" value="CC_ADC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a92"><param name="Name" value="CC_ALLRUN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a96"><param name="Name" value="CC_BASIC_TIMER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a151a90"><param name="Name" value="CC_DISABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a151a91"><param name="Name" value="CC_ENABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a102"><param name="Name" value="CC_FLASH_CNTRL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a97"><param name="Name" value="CC_LCD_FREQ"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a106"><param name="Name" value="CC_MCLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a105"><param name="Name" value="CC_SMCLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a108"><param name="Name" value="CC_STP_ACLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a110"><param name="Name" value="CC_STP_MCLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a107"><param name="Name" value="CC_STP_NONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a109"><param name="Name" value="CC_STP_SMCLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153a111"><param name="Name" value="CC_STP_TACLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a94"><param name="Name" value="CC_TIMER_A"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a95"><param name="Name" value="CC_TIMER_B"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a98"><param name="Name" value="CC_TIMER_COUNTER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a99"><param name="Name" value="CC_TIMER_PORT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a100"><param name="Name" value="CC_USART0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a101"><param name="Name" value="CC_USART1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152a93"><param name="Name" value="CC_WDT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a151"><param name="Name" value="CcControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a21"><param name="Name" value="CcControl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a153"><param name="Name" value="CcGeneralCLK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a23"><param name="Name" value="CcGeneralCLK_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a152"><param name="Name" value="CcModule"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a22"><param name="Name" value="CcModule_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a24"><param name="Name" value="CcParameter_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a0"><param name="Name" value="MessageID_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a120"><param name="Name" value="MSP430_EEM_GetBreakpoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a132"><param name="Name" value="MSP430_EEM_GetClockControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a122"><param name="Name" value="MSP430_EEM_GetCombineBreakpoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a134"><param name="Name" value="MSP430_EEM_GetSequencer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a124"><param name="Name" value="MSP430_EEM_GetTrace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a130"><param name="Name" value="MSP430_EEM_GetVariableWatch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a118"><param name="Name" value="MSP430_EEM_Init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a135"><param name="Name" value="MSP430_EEM_ReadSequencerState"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a125"><param name="Name" value="MSP430_EEM_ReadTraceBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a126"><param name="Name" value="MSP430_EEM_ReadTraceData"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a127"><param name="Name" value="MSP430_EEM_RefreshTraceBuffer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a119"><param name="Name" value="MSP430_EEM_SetBreakpoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a131"><param name="Name" value="MSP430_EEM_SetClockControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a121"><param name="Name" value="MSP430_EEM_SetCombineBreakpoint"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a133"><param name="Name" value="MSP430_EEM_SetSequencer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a123"><param name="Name" value="MSP430_EEM_SetTrace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a129"><param name="Name" value="MSP430_EEM_SetVariable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a128"><param name="Name" value="MSP430_EEM_SetVariableWatch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a28"><param name="Name" value="MSP430_EVENTNOTIFY_FUNC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a154a112"><param name="Name" value="SEQ_DISABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a154a113"><param name="Name" value="SEQ_ENABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a114"><param name="Name" value="SEQ_STATE0"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a115"><param name="Name" value="SEQ_STATE1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a116"><param name="Name" value="SEQ_STATE2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a117"><param name="Name" value="SEQ_STATE3"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a154"><param name="Name" value="SeqControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a25"><param name="Name" value="SeqControl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a27"><param name="Name" value="SeqParameter_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155"><param name="Name" value="SeqState"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a26"><param name="Name" value="SeqState_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a147a82"><param name="Name" value="TR_ALL_CYCLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a80"><param name="Name" value="TR_COLLECT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145a75"><param name="Name" value="TR_DISABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145a74"><param name="Name" value="TR_ENABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a147a81"><param name="Name" value="TR_FETCH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a78"><param name="Name" value="TR_FUTURE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a77"><param name="Name" value="TR_HISTORY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145a76"><param name="Name" value="TR_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a79"><param name="Name" value="TR_SHOT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a15"><param name="Name" value="TraceBuffer_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a147"><param name="Name" value="TrAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a13"><param name="Name" value="TrAction_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145"><param name="Name" value="TrControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a11"><param name="Name" value="TrControl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146"><param name="Name" value="TrMode"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a12"><param name="Name" value="TrMode_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a14"><param name="Name" value="TrParameter_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150a88"><param name="Name" value="VW_16"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150a89"><param name="Name" value="VW_32"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150a87"><param name="Name" value="VW_8"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a149a86"><param name="Name" value="VW_CLEAR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a148a84"><param name="Name" value="VW_DISABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a148a83"><param name="Name" value="VW_ENABLE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a149a85"><param name="Name" value="VW_SET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a149"><param name="Name" value="VwControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a17"><param name="Name" value="VwControl_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150"><param name="Name" value="VwDataType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a18"><param name="Name" value="VwDataType_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a148"><param name="Name" value="VwEnable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a16"><param name="Name" value="VwEnable_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a19"><param name="Name" value="VwParameter_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a20"><param name="Name" value="VwResources_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a30"><param name="Name" value="WAR_CLR_BP_COMBINE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a29"><param name="Name" value="WAR_CLR_COMBINE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a33"><param name="Name" value="WAR_DIS_TR_TRIGGER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a36"><param name="Name" value="WAR_EEM_CONFLICT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a35"><param name="Name" value="WAR_EEM_THREAD_ACTIVE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a34"><param name="Name" value="WAR_EN_TR_TRIGGER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a31"><param name="Name" value="WAR_MOD_COMBINE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a32"><param name="Name" value="WAR_RESET"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a1"><param name="Name" value="WarCode_t"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136"><param name="Name" value="WarningCodes"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_GetBreakpoint"><param name="Name" value="MSP430_EEM_GetBreakpoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a120"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_GetClockControl"><param name="Name" value="MSP430_EEM_GetClockControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a132"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_GetCombineBreakpoint"><param name="Name" value="MSP430_EEM_GetCombineBreakpoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a122"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_GetSequencer"><param name="Name" value="MSP430_EEM_GetSequencer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a134"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_GetTrace"><param name="Name" value="MSP430_EEM_GetTrace"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a124"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_GetVariableWatch"><param name="Name" value="MSP430_EEM_GetVariableWatch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a130"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_Init"><param name="Name" value="MSP430_EEM_Init"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a118"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_ReadSequencerState"><param name="Name" value="MSP430_EEM_ReadSequencerState"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a135"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_ReadTraceBuffer"><param name="Name" value="MSP430_EEM_ReadTraceBuffer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a125"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_ReadTraceData"><param name="Name" value="MSP430_EEM_ReadTraceData"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a126"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_RefreshTraceBuffer"><param name="Name" value="MSP430_EEM_RefreshTraceBuffer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a127"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetBreakpoint"><param name="Name" value="MSP430_EEM_SetBreakpoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a119"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetClockControl"><param name="Name" value="MSP430_EEM_SetClockControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a131"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetCombineBreakpoint"><param name="Name" value="MSP430_EEM_SetCombineBreakpoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a121"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetSequencer"><param name="Name" value="MSP430_EEM_SetSequencer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a133"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetTrace"><param name="Name" value="MSP430_EEM_SetTrace"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a123"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetVariable"><param name="Name" value="MSP430_EEM_SetVariable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a129"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EEM_SetVariableWatch"><param name="Name" value="MSP430_EEM_SetVariableWatch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a128"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Erase"><param name="Name" value="MSP430_Erase"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a73"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EraseCheck"><param name="Name" value="MSP430_EraseCheck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a80"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Error_Number"><param name="Name" value="MSP430_Error_Number"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a81"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Error_String"><param name="Name" value="MSP430_Error_String"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a82"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_EVENTNOTIFY_FUNC"><param name="Name" value="MSP430_EVENTNOTIFY_FUNC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a28"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_ExtRegisters"><param name="Name" value="MSP430_ExtRegisters"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a44"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a6"><param name="Name" value="BL_DATA_BLOCK_PROGRAMMED"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a4"><param name="Name" value="BL_ERASE_FIRMWARE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a3"><param name="Name" value="BL_ERASE_INT_VECTORS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a7"><param name="Name" value="BL_EXIT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a2"><param name="Name" value="BL_INIT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a5"><param name="Name" value="BL_PROGRAM_FIRMWARE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a8"><param name="Name" value="BL_UPDATE_DONE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a9"><param name="Name" value="BL_UPDATE_ERROR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20a10"><param name="Name" value="BL_WAIT_FOR_TIMEOUT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a0"><param name="Name" value="DLL430_FET_NOTIFY_FUNC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a15"><param name="Name" value="MSP430_FET_EnterBootloader"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a16"><param name="Name" value="MSP430_FET_ExitBootloader"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a19"><param name="Name" value="MSP430_FET_FwUpdate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a17"><param name="Name" value="MSP430_FET_GetFwVersion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a18"><param name="Name" value="MSP430_FET_GetHwVersion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a14"><param name="Name" value="MSP430_FET_I2C"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a13"><param name="Name" value="MSP430_FET_Reset"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a11"><param name="Name" value="MSP430_FET_SelfTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a12"><param name="Name" value="MSP430_FET_SetSignals"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20"><param name="Name" value="UPDATE_STATUS_MESSAGES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a1"><param name="Name" value="UPDATE_STATUS_MESSAGES_t"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_EnterBootloader"><param name="Name" value="MSP430_FET_EnterBootloader"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a15"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_ExitBootloader"><param name="Name" value="MSP430_FET_ExitBootloader"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a16"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_FwUpdate"><param name="Name" value="MSP430_FET_FwUpdate"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a19"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_GetFwVersion"><param name="Name" value="MSP430_FET_GetFwVersion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a17"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_GetHwVersion"><param name="Name" value="MSP430_FET_GetHwVersion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a18"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_I2C"><param name="Name" value="MSP430_FET_I2C"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a14"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_Reset"><param name="Name" value="MSP430_FET_Reset"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a13"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_SelfTest"><param name="Name" value="MSP430_FET_SelfTest"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a11"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_FET_SetSignals"><param name="Name" value="MSP430_FET_SetSignals"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a12"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_GetCurVCCT"><param name="Name" value="MSP430_GetCurVCCT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a70"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_GetExtVoltage"><param name="Name" value="MSP430_GetExtVoltage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a71"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_GetFoundDevice"><param name="Name" value="MSP430_GetFoundDevice"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a65"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_GetJtagID"><param name="Name" value="MSP430_GetJtagID"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a64"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_GetNameOfUsbIf"><param name="Name" value="MSP430_GetNameOfUsbIf"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a84"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_GetNumberOfUsbIfs"><param name="Name" value="MSP430_GetNumberOfUsbIfs"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a83"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Initialize"><param name="Name" value="MSP430_Initialize"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a62"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Memory"><param name="Name" value="MSP430_Memory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a74"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_OpenDevice"><param name="Name" value="MSP430_OpenDevice"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a66"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_ProgramFile"><param name="Name" value="MSP430_ProgramFile"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a77"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_ReadOutFile"><param name="Name" value="MSP430_ReadOutFile"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a76"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Register"><param name="Name" value="MSP430_Register"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a45"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Registers"><param name="Name" value="MSP430_Registers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a43"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Reset"><param name="Name" value="MSP430_Reset"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a72"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Run"><param name="Name" value="MSP430_Run"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a46"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_Secure"><param name="Name" value="MSP430_Secure"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a75"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_SET_SYSTEM_NOTIFY_CALLBACK"><param name="Name" value="MSP430_SET_SYSTEM_NOTIFY_CALLBACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a61"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_State"><param name="Name" value="MSP430_State"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a47"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_VCC"><param name="Name" value="MSP430_VCC"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a69"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_VerifyFile"><param name="Name" value="MSP430_VerifyFile"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a78"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="MSP430_VerifyMem"><param name="Name" value="MSP430_VerifyMem"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a79"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nBreakpoints"><param name="Name" value="nBreakpoints"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o7"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nBreakpointsDma"><param name="Name" value="nBreakpointsDma"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o31"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nBreakpointsOptions"><param name="Name" value="nBreakpointsOptions"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o29"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nBreakpointsReadWrite"><param name="Name" value="nBreakpointsReadWrite"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o30"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nCombinations"><param name="Name" value="nCombinations"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o23"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nCycleCounter"><param name="Name" value="nCycleCounter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o35"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nCycleCounterOperations"><param name="Name" value="nCycleCounterOperations"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o36"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nRegTrigger"><param name="Name" value="nRegTrigger"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o22"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nRegTriggerOperations"><param name="Name" value="nRegTriggerOperations"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o33"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nSequencer"><param name="Name" value="nSequencer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o37"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="nStateStorage"><param name="Name" value="nStateStorage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o34"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="PUC_RESET"><param name="Name" value="PUC_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a23"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R0"><param name="Name" value="R0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a7"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R10"><param name="Name" value="R10"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a17"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R11"><param name="Name" value="R11"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a18"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R12"><param name="Name" value="R12"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a19"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R13"><param name="Name" value="R13"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a20"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R14"><param name="Name" value="R14"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a21"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R15"><param name="Name" value="R15"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a22"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R1"><param name="Name" value="R1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a8"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R2"><param name="Name" value="R2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a9"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R3"><param name="Name" value="R3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a10"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R4"><param name="Name" value="R4"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a11"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R5"><param name="Name" value="R5"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a12"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R6"><param name="Name" value="R6"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a13"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R7"><param name="Name" value="R7"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a14"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R8"><param name="Name" value="R8"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a15"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="R9"><param name="Name" value="R9"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a50a16"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ram2End"><param name="Name" value="ram2End"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o17"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ram2Start"><param name="Name" value="ram2Start"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o16"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RAM_PRESERVE_MODE"><param name="Name" value="RAM_PRESERVE_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a41"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ramEnd"><param name="Name" value="ramEnd"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o6"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="ramStart"><param name="Name" value="ramStart"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o15"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="READ"><param name="Name" value="READ"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a87a20"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="READ_WRITE"><param name="Name" value="READ_WRITE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a87"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="READ_WRITE_t"><param name="Name" value="READ_WRITE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a4"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RESET_METHOD"><param name="Name" value="RESET_METHOD"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RESET_METHOD_t"><param name="Name" value="RESET_METHOD_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a6"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RST_RESET"><param name="Name" value="RST_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a24"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RUN_MODES"><param name="Name" value="RUN_MODES"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RUN_MODES_t"><param name="Name" value="RUN_MODES_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a1"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RUN_TO_BREAKPOINT"><param name="Name" value="RUN_TO_BREAKPOINT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51a25"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="RUNNING"><param name="Name" value="RUNNING"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a27"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SEQ_DISABLE"><param name="Name" value="SEQ_DISABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a154a112"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SEQ_ENABLE"><param name="Name" value="SEQ_ENABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a154a113"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SEQ_STATE0"><param name="Name" value="SEQ_STATE0"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a114"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SEQ_STATE1"><param name="Name" value="SEQ_STATE1"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a115"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SEQ_STATE2"><param name="Name" value="SEQ_STATE2"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a116"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SEQ_STATE3"><param name="Name" value="SEQ_STATE3"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155a117"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SeqControl"><param name="Name" value="SeqControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a154"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="seqControl"><param name="Name" value="seqControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o0"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SeqControl_t"><param name="Name" value="SeqControl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a25"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="seqNextStateX"><param name="Name" value="seqNextStateX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o3"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="seqNextStateY"><param name="Name" value="seqNextStateY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o5"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SeqParameter_t"><param name="Name" value="SeqParameter_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a27"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SeqState"><param name="Name" value="SeqState"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a155"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SeqState_t"><param name="Name" value="SeqState_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a26"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html"><param name="Name" value="SEQUENCER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o2"><param name="Name" value="bpAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o0"><param name="Name" value="seqControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o3"><param name="Name" value="seqNextStateX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o5"><param name="Name" value="seqNextStateY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o1"><param name="Name" value="wHandleRstTrig"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o4"><param name="Name" value="wHandleStateX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o6"><param name="Name" value="wHandleStateY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SET_MDB_BEFORE_RUN"><param name="Name" value="SET_MDB_BEFORE_RUN"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a40"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SINGLE_STEP"><param name="Name" value="SINGLE_STEP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a51a24"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SINGLE_STEP_COMPLETE"><param name="Name" value="SINGLE_STEP_COMPLETE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a28"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SPYBIWIRE_IF"><param name="Name" value="SPYBIWIRE_IF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a49"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SPYBIWIREJTAG_IF"><param name="Name" value="SPYBIWIREJTAG_IF"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a92a50"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATE_MODES"><param name="Name" value="STATE_MODES"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATE_MODES_t"><param name="Name" value="STATE_MODES_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a2"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATUS_CODE"><param name="Name" value="STATUS_CODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a85"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATUS_CODE_t"><param name="Name" value="STATUS_CODE_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a1"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATUS_ERROR"><param name="Name" value="STATUS_ERROR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a85a14"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATUS_OK"><param name="Name" value="STATUS_OK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a85a15"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STATUS_T"><param name="Name" value="STATUS_T"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a0"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="STOPPED"><param name="Name" value="STOPPED"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__Debug_8h.html#a52a26"><param name="Name" value="MSP430_Debug.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="string"><param name="Name" value="string"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o3"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SYSTEM_EVENT_MSP"><param name="Name" value="SYSTEM_EVENT_MSP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a95"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SYSTEM_EVENT_MSP_t"><param name="Name" value="SYSTEM_EVENT_MSP_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a12"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="SYSTEM_NOTIFY_CALLBACK"><param name="Name" value="SYSTEM_NOTIFY_CALLBACK"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a13"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TOTAL_ERASE_DEVICE"><param name="Name" value="TOTAL_ERASE_DEVICE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a47"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_ALL_CYCLE"><param name="Name" value="TR_ALL_CYCLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a147a82"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_COLLECT"><param name="Name" value="TR_COLLECT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a80"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_DISABLE"><param name="Name" value="TR_DISABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145a75"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_ENABLE"><param name="Name" value="TR_ENABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145a74"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_FETCH"><param name="Name" value="TR_FETCH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a147a81"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_FUTURE"><param name="Name" value="TR_FUTURE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a78"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_HISTORY"><param name="Name" value="TR_HISTORY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a77"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_RESET"><param name="Name" value="TR_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145a76"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TR_SHOT"><param name="Name" value="TR_SHOT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146a79"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html"><param name="Name" value="TRACE_BUFFER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html#o0"><param name="Name" value="lTrBufMAB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html#o1"><param name="Name" value="lTrBufMDB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html#o2"><param name="Name" value="wTrBufCNTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html"><param name="Name" value="TRACE_CTRL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html#o2"><param name="Name" value="trAction"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html#o0"><param name="Name" value="trControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html#o1"><param name="Name" value="trMode"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TraceBuffer_t"><param name="Name" value="TraceBuffer_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a15"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrAction"><param name="Name" value="TrAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a147"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="trAction"><param name="Name" value="trAction"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html#o2"><param name="Name" value="TRACE_CTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrAction_t"><param name="Name" value="TrAction_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a13"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrControl"><param name="Name" value="TrControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a145"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="trControl"><param name="Name" value="trControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html#o0"><param name="Name" value="TRACE_CTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrControl_t"><param name="Name" value="TrControl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a11"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrigerMask"><param name="Name" value="TrigerMask"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o32"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrMode"><param name="Name" value="TrMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a146"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="trMode"><param name="Name" value="trMode"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__CTRL.html#o1"><param name="Name" value="TRACE_CTRL"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrMode_t"><param name="Name" value="TrMode_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a12"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="TrParameter_t"><param name="Name" value="TrParameter_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a14"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="uiMsgIdBreakpoint"><param name="Name" value="uiMsgIdBreakpoint"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o1"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="uiMsgIdCPUStopped"><param name="Name" value="uiMsgIdCPUStopped"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o5"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="uiMsgIdSingleStep"><param name="Name" value="uiMsgIdSingleStep"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o0"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="uiMsgIdState"><param name="Name" value="uiMsgIdState"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o3"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="uiMsgIdStorage"><param name="Name" value="uiMsgIdStorage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o2"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="uiMsgIdWarning"><param name="Name" value="uiMsgIdWarning"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structMESSAGE__ID.html#o4"><param name="Name" value="MESSAGE_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="UNLOCK_BSL_MODE"><param name="Name" value="UNLOCK_BSL_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a42"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="UPDATE_STATUS_MESSAGES"><param name="Name" value="UPDATE_STATUS_MESSAGES"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a20"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="UPDATE_STATUS_MESSAGES_t"><param name="Name" value="UPDATE_STATUS_MESSAGES_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__FET_8h.html#a1"><param name="Name" value="MSP430_FET.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html"><param name="Name" value="VAR_WATCH_RESOURCES"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html#o1"><param name="Name" value="lAddr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html#o2"><param name="Name" value="vwDataType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html#o0"><param name="Name" value="vwHandle"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html"><param name="Name" value="VARIABLE_WATCH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html#o1"><param name="Name" value="lAddr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html#o0"><param name="Name" value="vwControl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html#o2"><param name="Name" value="vwDataType"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VCC_RESET"><param name="Name" value="VCC_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a89a25"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="vccMaxOp"><param name="Name" value="vccMaxOp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o13"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="vccMinOp"><param name="Name" value="vccMinOp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="unionDEVICE__T.html#o12"><param name="Name" value="DEVICE_T"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VERIFICATION_MODE"><param name="Name" value="VERIFICATION_MODE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a35"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_16"><param name="Name" value="VW_16"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150a88"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_32"><param name="Name" value="VW_32"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150a89"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_8"><param name="Name" value="VW_8"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150a87"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_CLEAR"><param name="Name" value="VW_CLEAR"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a149a86"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_DISABLE"><param name="Name" value="VW_DISABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a148a84"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_ENABLE"><param name="Name" value="VW_ENABLE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a148a83"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VW_SET"><param name="Name" value="VW_SET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a149a85"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwControl"><param name="Name" value="VwControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a149"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="vwControl"><param name="Name" value="vwControl"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html#o0"><param name="Name" value="VARIABLE_WATCH"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwControl_t"><param name="Name" value="VwControl_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a17"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwDataType"><param name="Name" value="VwDataType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a150"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="vwDataType"><param name="Name" value="vwDataType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html#o2"><param name="Name" value="VAR_WATCH_RESOURCES"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVARIABLE__WATCH.html#o2"><param name="Name" value="VARIABLE_WATCH"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwDataType_t"><param name="Name" value="VwDataType_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a18"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwEnable"><param name="Name" value="VwEnable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a148"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwEnable_t"><param name="Name" value="VwEnable_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a16"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="vwHandle"><param name="Name" value="vwHandle"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structVAR__WATCH__RESOURCES.html#o0"><param name="Name" value="VAR_WATCH_RESOURCES"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwParameter_t"><param name="Name" value="VwParameter_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a19"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="VwResources_t"><param name="Name" value="VwResources_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a20"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_CLR_BP_COMBINE"><param name="Name" value="WAR_CLR_BP_COMBINE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a30"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_CLR_COMBINE"><param name="Name" value="WAR_CLR_COMBINE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a29"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_DIS_TR_TRIGGER"><param name="Name" value="WAR_DIS_TR_TRIGGER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a33"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_EEM_CONFLICT"><param name="Name" value="WAR_EEM_CONFLICT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a36"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_EEM_THREAD_ACTIVE"><param name="Name" value="WAR_EEM_THREAD_ACTIVE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a35"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_EN_TR_TRIGGER"><param name="Name" value="WAR_EN_TR_TRIGGER"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a34"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_MOD_COMBINE"><param name="Name" value="WAR_MOD_COMBINE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a31"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WAR_RESET"><param name="Name" value="WAR_RESET"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136a32"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WarCode_t"><param name="Name" value="WarCode_t"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a1"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WarningCodes"><param name="Name" value="WarningCodes"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430__EEM_8h.html#a136"><param name="Name" value="MSP430_EEM.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="wExtCombine"><param name="Name" value="wExtCombine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBREAKPOINT.html#o15"><param name="Name" value="BREAKPOINT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="wHandleRstTrig"><param name="Name" value="wHandleRstTrig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o1"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="wHandleStateX"><param name="Name" value="wHandleStateX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o4"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="wHandleStateY"><param name="Name" value="wHandleStateY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structSEQUENCER.html#o6"><param name="Name" value="SEQUENCER"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WRITE"><param name="Name" value="WRITE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a87a19"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="WRITE_EXTERNAL_MEMORY"><param name="Name" value="WRITE_EXTERNAL_MEMORY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MSP430_8h.html#a91a44"><param name="Name" value="MSP430.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="See Also" value="wTrBufCNTRL"><param name="Name" value="wTrBufCNTRL"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structTRACE__BUFFER.html#o2"><param name="Name" value="TRACE_BUFFER"></OBJECT>
+</UL>

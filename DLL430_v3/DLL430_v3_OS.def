@@ -1,0 +1,90 @@
+VERSION 3.0
+EXPORTS
+; Only state function here that are declared with __stdcall (or WINAPI)
+; to export them to a name without @nn.
+; For all other exports, include DLL430_SYMBOL.h and prefix the function
+; with DLL430_SYMBOL.
+;;
+;; from MSP430.h
+;;
+MSP430_Initialize
+MSP430_Close
+MSP430_GetJtagID
+MSP430_GetFoundDevice
+MSP430_OpenDevice
+MSP430_Device
+MSP430_Configure
+MSP430_VCC
+MSP430_GetCurVCCT
+MSP430_GetExtVoltage
+MSP430_Reset
+MSP430_Erase
+MSP430_Memory
+MSP430_Secure
+MSP430_ReadOutFile
+MSP430_ProgramFile
+MSP430_VerifyFile
+MSP430_VerifyMem
+MSP430_EraseCheck
+MSP430_Error_Number
+MSP430_Error_String
+MSP430_GetNumberOfUsbIfs
+MSP430_GetNameOfUsbIf
+;;
+;; from MSP430_HIL.h
+;;
+MSP430_HIL_ResetJtagTap
+MSP430_HIL_Open
+MSP430_HIL_Connect
+MSP430_HIL_Close
+MSP430_HIL_JTAG_IR
+MSP430_HIL_JTAG_DR
+MSP430_HIL_JTAG_DRX
+MSP430_HIL_TCK
+MSP430_HIL_TMS
+MSP430_HIL_TDI
+MSP430_HIL_RST
+MSP430_HIL_TST
+;;
+;; from MSP430_Debug.h
+;;
+MSP430_Registers
+MSP430_Register
+MSP430_ExtRegisters
+MSP430_Run
+MSP430_State
+MSP430_CcGetClockNames
+MSP430_CcGetModuleNames
+;;
+;; from MSP430_EEM.h
+;;
+MSP430_EEM_Init
+MSP430_EEM_SetBreakpoint
+MSP430_EEM_GetBreakpoint
+MSP430_EEM_SetCombineBreakpoint
+MSP430_EEM_GetCombineBreakpoint
+MSP430_EEM_SetTrace
+MSP430_EEM_GetTrace
+MSP430_EEM_ReadTraceBuffer
+MSP430_EEM_RefreshTraceBuffer
+MSP430_EEM_SetVariableWatch
+MSP430_EEM_SetVariable
+MSP430_EEM_GetVariableWatch
+MSP430_EEM_SetClockControl
+MSP430_EEM_GetClockControl
+MSP430_EEM_SetSequencer
+MSP430_EEM_GetSequencer
+MSP430_EEM_ReadSequencerState
+;;
+;; from MSP430_FET.h
+;;
+MSP430_FET_SelfTest
+MSP430_FET_SetSignals
+MSP430_FET_Reset
+MSP430_FET_I2C
+MSP430_FET_EnterBootloader
+MSP430_FET_ExitBootloader
+MSP430_FET_GetFwVersion
+MSP430_FET_GetHwVersion
+MSP430_FET_FwUpdate
+MSP430_SET_SYSTEM_NOTIFY_CALLBACK

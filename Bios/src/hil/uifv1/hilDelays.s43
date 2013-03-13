@@ -1,0 +1,135 @@
+/*
+ * hilDelays.s43
+ * 
+ * Implementation of delay functions
+ *
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/ 
+ * 
+ * 
+ *  Redistribution and use in source and binary forms, with or without 
+ *  modification, are permitted provided that the following conditions 
+ *  are met:
+ *
+ *    Redistributions of source code must retain the above copyright 
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ *    Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the 
+ *    documentation and/or other materials provided with the   
+ *    distribution.
+ *
+ *    Neither the name of Texas Instruments Incorporated nor the names of
+ *    its contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+ *  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+ *  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ *  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+ *  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+ *  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+ *  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ *  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ *  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+ *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+ *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+//! \ingroup MODULHIL
+//! \file hilDelays.s43
+//! \brief
+
+
+#include "../../hal/HalGlobalVars.h"
+
+RTMODEL "__SystemLibrary", "CLib"
+        RTMODEL "__core", "430"
+        RTMODEL "__double_size", "32"
+        RTMODEL "__pic", "no"
+        RTMODEL "__reg_r4", "free"
+        RTMODEL "__reg_r5", "free"
+        RTMODEL "__rt_version", "3"
+
+        RSEG CSTACK:DATA:SORT:NOROOT(0)
+
+        PUBLIC _hil_Delay_1ms
+        FUNCTION _hil_Delay_1ms,0603H
+        ARGFRAME CSTACK, 0, STACK
+        LOCFRAME CSTACK, 2, STACK
+        PUBLIC _hil_Delay_1us
+        FUNCTION _hil_Delay_1us,0603H
+        ARGFRAME CSTACK, 0, STACK
+        LOCFRAME CSTACK, 2, STACK
+        
+        CFI Names cfiNamesX0
+        CFI StackFrame CFA SP DATA
+        CFI Resource PC:16, SP:16, SR:16, R4:16, R5:16, R6:16, R7:16, R8:16
+        CFI Resource R9:16, R10:16, R11:16, R12:16, R13:16, R14:16, R15:16
+        CFI EndNames cfiNamesX0
+        
+        CFI Common cfiCommonX0 Using cfiNamesX0
+        CFI CodeAlign 2
+        CFI DataAlign 2
+        CFI ReturnAddress PC CODE
+        CFI CFA SP+2
+        CFI PC Frame(CFA, -2)
+        CFI SR Undefined
+        CFI R4 SameValue
+        CFI R5 SameValue
+        CFI R6 SameValue
+        CFI R7 SameValue
+        CFI R8 SameValue
+        CFI R9 SameValue
+        CFI R10 SameValue
+        CFI R11 SameValue
+        CFI R12 Undefined
+        CFI R13 Undefined
+        CFI R14 Undefined
+        CFI R15 Undefined
+        CFI EndCommon cfiCommonX0
+        
+        
+        RSEG CODE:CODE:REORDER:NOROOT(1)
+_hil_Delay_1us:
+        CFI Block cfiBlockX11 Using cfiCommonX0
+        CFI Function _hil_Delay_1us
+        MOV.W   R12, R15
+??_hil_Delay_1us_1:
+        CMP.W   #0x0, R15
+        JEQ     ??_hil_Delay_1us_2
+        MOV.W   &HAL_ADDR_VAR_DELAY_LOOP_US, R14   ;0x1 
+??_hil_Delay_1us_0:
+        CMP.W   #0x0, R14
+        JEQ     ??_hil_Delay_1us_3
+        ADD.W   #0xffff, R14
+        JMP     ??_hil_Delay_1us_0
+??_hil_Delay_1us_3:
+        ADD.W   #0xffff, R15
+        JMP     ??_hil_Delay_1us_1
+??_hil_Delay_1us_2:
+        RET
+        CFI EndBlock cfiBlockX11
+
+        RSEG CODE:CODE:REORDER:NOROOT(1)
+_hil_Delay_1ms:
+        CFI Block cfiBlockX12 Using cfiCommonX0
+        CFI Function _hil_Delay_1ms
+        MOV.W   R12, R15
+??_hil_Delay_1ms_1:
+        CMP.W   #0x0, R15
+        JEQ     ??_hil_Delay_1ms_2
+        MOV.W   &HAL_ADDR_VAR_DELAY_LOOP_MS, R14   ;0x535
+??_hil_Delay_1ms_0:
+        CMP.W   #0x0, R14
+        JEQ     ??_hil_Delay_1ms_3
+        ADD.W   #0xffff, R14
+        JMP     ??_hil_Delay_1ms_0
+??_hil_Delay_1ms_3:
+        ADD.W   #0xffff, R15
+        JMP     ??_hil_Delay_1ms_1
+??_hil_Delay_1ms_2:
+        RET
+        
+        CFI EndBlock cfiBlockX12
+
+END

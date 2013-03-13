@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\eraseDco.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\eraseDcoX.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\eraseFll.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\eraseFllX.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\writeDco.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\writeDcoX.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\writeFll.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\writeFllX.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

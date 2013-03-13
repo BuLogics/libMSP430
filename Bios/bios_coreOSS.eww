@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\SafeCore.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\UifBiosCore.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\UifHal.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>

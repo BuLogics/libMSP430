@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="MSP430 DLL API Documentation"><param name="Local" value="main.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MSP430.h"><param name="Local" value="MSP430_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MSP430_Debug.h"><param name="Local" value="MSP430__Debug_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MSP430_EEM.h"><param name="Local" value="MSP430__EEM_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MSP430_FET.h"><param name="Local" value="MSP430__FET_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BREAKPOINT"><param name="Local" value="structBREAKPOINT.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="CLOCK_CONTROL"><param name="Local" value="structCLOCK__CONTROL.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="DEVICE_T"><param name="Local" value="unionDEVICE__T.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="EEM_GCLKCTRL"><param name="Local" value="structEEM__GCLKCTRL.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="EEM_MCLKCTRL"><param name="Local" value="structEEM__MCLKCTRL.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MESSAGE_ID"><param name="Local" value="structMESSAGE__ID.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="SEQUENCER"><param name="Local" value="structSEQUENCER.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="TRACE_BUFFER"><param name="Local" value="structTRACE__BUFFER.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="TRACE_CTRL"><param name="Local" value="structTRACE__CTRL.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VAR_WATCH_RESOURCES"><param name="Local" value="structVAR__WATCH__RESOURCES.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="VARIABLE_WATCH"><param name="Local" value="structVARIABLE__WATCH.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Data Fields"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+</UL>
