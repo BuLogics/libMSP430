@@ -40,7 +40,7 @@
 #include <iostream>
 #include <map>
 #include <vector>
-#include "boost/pool/detail/singleton.hpp"
+#include "boost/thread/detail/singleton.hpp"
 #include "boost/date_time/posix_time/posix_time.hpp"
 
 #include <DeviceInfo.h>
@@ -63,7 +63,7 @@ using namespace TemplateDeviceDb;
 
 typedef std::map<const MatchImpl, const Registration::DeviceCreatorPtr> DeviceMapImpl;
 typedef DeviceMapImpl::const_iterator DeviceMapConstIterator;
-typedef boost::details::pool::singleton_default<DeviceMapImpl> DeviceMap;
+typedef boost::detail::thread::singleton<DeviceMapImpl> DeviceMap;
 DeviceCreatorBase::DeviceTypePtr currentDevice_;
 
 Registration::Registration() 

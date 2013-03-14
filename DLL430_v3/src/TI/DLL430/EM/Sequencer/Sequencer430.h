@@ -40,6 +40,7 @@
 #define DLL430_SEQUENCER_430_H
 
 #include <stdint.h>
+#include <string.h>
 #include <vector>
 #include "ISequencer.h"
 

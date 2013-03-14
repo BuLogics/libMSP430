@@ -2,7 +2,9 @@ CXX:= g++
 
 DEFINES := -DUNIX
 
-CXXFLAGS := -fPIC -m32
+CXXFLAGS := -fPIC
+BOOST_DIR := $(PWD)/../boost_1_51_0
+#CXXFLAGS := -fPIC -m32
 
 ifdef DEBUG
 CXXFLAGS += -g -O0
@@ -20,6 +22,7 @@ INCLUDES := \
 	-I./DLL430_v3/src/TI/DLL430
 
 LIBDIRS :=
+
 
 ifdef BOOST_DIR
 INCLUDES += -I$(BOOST_DIR)
@@ -55,7 +58,8 @@ OBJS := $(patsubst %.cpp, %.o, $(SRC))
 OUTPUT := libmsp430.so
 
 all: $(OBJS)
-	$(CXX) $(CXXFLAGS) -shared -Wl,-soname,$(OUTPUT) -o $(OUTPUT) $(OBJS) $(LIBDIRS) -Wl,-Bstatic $(LIBS) -Wl,-Bdynamic -lpthread
+#	$(CXX) $(CXXFLAGS) -shared -Wl,-soname,$(OUTPUT) -o $(OUTPUT) $(OBJS) $(LIBDIRS) -Wl,-Bstatic $(LIBS) -Wl,-Bdynamic -lpthread
+	$(CXX) $(CXXFLAGS) -shared -Wl,-soname,$(OUTPUT) -o $(OUTPUT) $(OBJS) $(LIBDIRS) -Wl,$(LIBS) -Wl,-Bdynamic -lpthread
 
 %.o: %.cpp
 	$(CXX) -c -o $@ $< $(CXXFLAGS) $(INCLUDES) $(DEFINES)

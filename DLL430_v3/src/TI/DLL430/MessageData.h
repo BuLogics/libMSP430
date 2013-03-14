@@ -42,6 +42,7 @@
 #define DLL430_MESSAGE_DATA_H
 
 #include <vector>
+#include <string.h>
 #include <stdint.h>
 #include <boost/shared_ptr.hpp>
 
