@@ -12,10 +12,10 @@ patches and posted them in this repo to share.
   master : our patched branch of MSP430DLLv3 
 
 # instructions
- 0. run ' mspdebug tilib -d /dev/ttyACM0' (assuming your ti device is on ACM0)
-    and verif you have an error loading 'libmsp430.so' on your machine
- 1. check out this repository
- 2. run './ubuntu_install_prereqes.sh'
+ 0. check out this repository
+ 1. run './ubuntu_install_prereqes.sh'
+ 2. run ' mspdebug tilib -d /dev/ttyACM0' (assuming your ti device is on ACM0)
+    and verify you have an error loading 'libmsp430.so' on your machine
  3. run 'make' If you are lucky, this should *just work* 
  4. run 'make install' to install the driver, so mspdebug can find the lib
  5. Plug in a MSP-FET430UIF device into your machine
