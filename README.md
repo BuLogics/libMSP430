@@ -24,8 +24,9 @@ patches and posted them in this repo to share.
 
                                                                 
 #See Also:                
- Unnamed TI employee post/patch:
+ - Unnamed TI employee post/patch:
  : http://e2e.ti.com/support/microcontrollers/msp430/f/166/p/214038/756939.aspx
- This mspdebug linux install info: 
+ - This mspdebug linux install info: 
  http://e2e.ti.com/support/microcontrollers/msp430/f/166/p/214038/756939.aspx
-
+ - the device this is driver is building for:
+ https://github.com/BuLogics/libMSP430
