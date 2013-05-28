@@ -30,3 +30,5 @@ patches and posted them in this repo to share.
  http://e2e.ti.com/support/microcontrollers/msp430/f/166/p/214038/756939.aspx
  - the device this is driver is building for:
  https://github.com/BuLogics/libMSP430
+ - More info on patches, some compile options
+ http://mspdebug.sourceforge.net/tilib.html

@@ -55,7 +55,7 @@ namespace TI
 		class DLL430_SYMBOL FetHandleManager
 		{
 		public:
-			/** \brief get a pointer  to the FetHandleManager instance
+			/** \brief get a pointer to the FetHandleManager instance
 			 *
 			 * \return pointer to the instance
 			 */
